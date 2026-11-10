@@ -1,3 +1,6 @@
+# 项目作用
+由于IKF V11max驱动存在bug，开机后如果没连接到设备会卡住界面，因此修复本驱动。
+
 # iKF Audio / XearONE
 
 iKF Audio（XearONE）控制程序，.NET Framework 4.8、x64、WPF 工程。本仓库已包含全部构建引用程序集和安装包运行时，按下面步骤即可从源码编译并打包安装程序。
@@ -93,3 +96,6 @@ csc .\patcher\PatchXearONE.cs /r:dnlib.dll /r:WindowsBase.dll
 ```
 
 编译后用法为 `PatchXearONE.exe <原始 XearONE.exe> <输出 exe>`。正常情况下使用前面的源码编译流程即可，无需使用该补丁器。
+
+---
+仅作为学习用途，如有版权问题，可联系我进行修改。
