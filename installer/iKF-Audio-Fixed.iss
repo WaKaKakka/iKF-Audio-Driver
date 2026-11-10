@@ -6,7 +6,8 @@
 #endif
 
 [Setup]
-AppId={{9D97C64D-4B87-4E16-8C44-1A2B3C4D5E6F}}
+; Keep the vendor AppId so an existing iKF Audio installation is upgraded in place.
+AppId={{C2CA8CFF-04E0-42AB-8855-75BEF07CCC28}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
@@ -16,6 +17,8 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=admin
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
+RestartIfNeededByRun=yes
+AlwaysRestart=yes
 OutputDir=..\dist
 OutputBaseFilename=iKF_Audio_修正版_安装包
 SetupIconFile=..\src\app.ico
@@ -36,10 +39,15 @@ Source: "{#PayloadDir}\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubd
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\UI\XearONE.exe"; WorkingDir: "{app}\UI"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\UI\XearONE.exe"; WorkingDir: "{app}\UI"
 
+[Registry]
+; XearONE is a tray application and must be started for every user after logon.
+Root: HKLM; Subkey: "SOFTWARE\Microsoft\Windows\CurrentVersion\Run"; ValueName: "{{C2CA8CFF-04E0-42AB-8855-75BEF07CCC28}"; ValueType: String; ValueData: """{app}\UI\XearONE.exe"" -s"; Flags: uninsdeletevalue
+
 [Run]
-Filename: "{app}\ApoDriver\CmApoDriverSetup.exe"; Parameters: "/install"; WorkingDir: "{app}\ApoDriver"; Flags: runhidden waituntilterminated
-Filename: "{app}\Program\CmDeviceCheck.exe"; WorkingDir: "{app}\Program"; Flags: runhidden waituntilterminated
-Filename: "{app}\UI\XearONE.exe"; WorkingDir: "{app}\UI"; Description: "启动 iKF Audio"; Flags: postinstall nowait skipifsilent
+; CmApoDriverSetup accepts the verb without a leading slash.
+Filename: "{app}\ApoDriver\CmApoDriverSetup.exe"; Parameters: "install"; WorkingDir: "{app}\ApoDriver"; Flags: runhidden waituntilterminated
+Filename: "{app}\ApoDriver\CmDrvCheck.exe"; WorkingDir: "{app}\ApoDriver"; Flags: runhidden waituntilterminated
 
 [UninstallRun]
-Filename: "{app}\ApoDriver\CmApoDriverSetup.exe"; Parameters: "/uninstall"; WorkingDir: "{app}\ApoDriver"; Flags: runhidden waituntilterminated; RunOnceId: "RemoveApoDriver"
+Filename: "taskkill"; Parameters: "/im ""XearONE.exe"" /f"; Flags: runhidden waituntilterminated; RunOnceId: "StopXearONE"
+Filename: "{app}\ApoDriver\CmApoDriverSetup.exe"; Parameters: "uninstall"; WorkingDir: "{app}\ApoDriver"; Flags: runhidden waituntilterminated; RunOnceId: "RemoveApoDriver"

@@ -85,7 +85,7 @@ ISCC .\installer\iKF-Audio-Fixed.iss
 .\dist\iKF_Audio_修正版_安装包.exe
 ```
 
-安装包会在安装时部署 ApoDriver、运行 CmDeviceCheck，并创建 XearONE 的开始菜单和桌面快捷方式。
+安装包会在安装时部署 ApoDriver、运行原版的 `CmDrvCheck.exe`，将 XearONE 写入系统启动项，并在安装结束时提示重启。重启登录后，XearONE 以 `-s` 参数在后台启动；开始菜单和桌面快捷方式仍会同时创建。
 
 ## 附：二进制补丁器（可选）
 
