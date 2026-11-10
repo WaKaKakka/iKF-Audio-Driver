@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.UserControls.GlobalProfile.DeletePopupControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:XearONE.UI.UserControls.GlobalProfile" Width="250" Height="150">
+  <Grid>
+    <Border Background="{StaticResource SolidColorBrush_Background}" CornerRadius="5" Padding="10" BorderBrush="{StaticResource SolidColorBrush_Background_Stroke}" BorderThickness="1" />
+    <Grid Margin="10">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="3*" />
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <Label Content="Delete?" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Label_Main_Style}" />
+      <Grid Row="1" Margin="30,0,30,0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition />
+          <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Name="Button_OK" Grid.Column="0" Width="60" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Delete" ToolTip="Delete This Profile" Click="Button_OK_Click" />
+        <Button Name="Button_Cancel" Grid.Column="1" Width="60" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Cancel" ToolTip="Cancel" Click="Button_Cancel_Click" />
+      </Grid>
+    </Grid>
+  </Grid>
+</UserControl>

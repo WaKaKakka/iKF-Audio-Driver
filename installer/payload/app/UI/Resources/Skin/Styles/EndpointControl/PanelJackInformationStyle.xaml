@@ -1,0 +1,64 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackSpeaker-->
+    <BitmapImage x:Key="Img_JackSpeaker" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackSpeaker.png"/>
+    <!--Img JackSpeaker-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackHeadphone-->
+    <BitmapImage x:Key="Img_JackHeadphone" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackHeadphone.png"/>
+    <!--Img JackHeadphone-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackMicrophone-->
+    <BitmapImage x:Key="Img_JackMicrophone" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackMicrophone.png"/>
+    <!--Img JackMicrophone-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackHeadset-->
+    <BitmapImage x:Key="Img_JackHeadset" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackHeadset.png"/>
+    <!--Img JackHeadset-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackLineIn-->
+    <BitmapImage x:Key="Img_JackLineIn" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackLineIn.png"/>
+    <!--Img JackLineIn-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackDigital-->
+    <BitmapImage x:Key="Img_JackDigital" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackDigital.png"/>
+    <!--Img JackDigital-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackCDPlayer-->
+    <BitmapImage x:Key="Img_JackCDPlayer" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackCDPlayer.png"/>
+    <!--Img JackCDPlayer-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackHDMI-->
+    <BitmapImage x:Key="Img_JackHDMI" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackHDMI.png"/>
+    <!--Img JackHDMI-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackStereoMix-->
+    <BitmapImage x:Key="Img_JackStereoMix" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackStereoMix.png"/>
+    <!--Img JackStereoMix-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img JackUnknown-->
+    <BitmapImage x:Key="Img_JackUnknown" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_JackUnknown.png"/>
+    <!--Img JackUnknown-->
+
+    <!--Width: 15 Height: 15-->
+    <!--Img DefaultDevice-->
+    <BitmapImage x:Key="Img_DefaultDevice" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_DefaultDevice.png"/>
+    <!--Img DefaultDevice-->
+
+    <!--Width: 15 Height: 15-->
+    <!--Img DefaultCommunicationDevice-->
+    <BitmapImage x:Key="Img_DefaultCommunicationDevice" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/TitlePanel/Img_DefaultCommunicationDevice.png"/>
+    <!--Img DefaultCommunicationDevice-->
+
+</ResourceDictionary>

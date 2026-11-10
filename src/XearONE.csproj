@@ -1,0 +1,176 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>XearONE</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationConfig Remove="XearONE.exe.config" />
+    <ApplicationConfig Include="XearONE.exe.config" />
+    <ApplicationDefinition Remove="XearONE.UI\App.xaml" />
+    <ApplicationDefinition Include="XearONE.UI\App.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="app.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content.AutoSwitch\AutoSwitchSettingControl.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content.AutoSwitch\ProfileAutoSwitch.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content\EffectControl.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content\EndpointList.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content\Information.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content\JackSetting.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow.Content\LEDControl.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow\SubWindow.xaml" />
+    <Page Remove="XearONE.UI.ControlWindow\SubWindowTitleCover.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.HeadTracking\GuideWindow.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.HeadTracking\HeadTrackingControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.HeadTracking\HeadTrackingGuideControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.HeadTracking\MessageWindow.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.MagicVoice2\MagicVoice2Control.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.MagicVoice2\PitchEstimation.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.MagicVoice2\PowerSettingsWindow.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.MagicVoice2\SystemWarningWindow.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.MagicVoice2\WarningDialog.xaml" />
+    <Page Remove="XearONE.UI.EffectControls.RecordingEffect\RecordingEffectControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\AINRCaptureControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\AINRPlaybackControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\EffectControlBackground.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\EnvironmentEffectsControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\EQControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\MicEQControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\NoiseReductionControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\VigilanceModeControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\VirtualSpeakerShifterControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearAudioBrilliantControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearDynamicBassControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearMagicVoiceControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSingFxEchoControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSingFxKeyShiftingControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSingFxVocalFadingControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSmartVolumeControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSurroundHeadphoneControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearSurroundMaxControl.xaml" />
+    <Page Remove="XearONE.UI.EffectControls\XearVoiceClarityControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelBalance.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelBattery.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelEffect.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelJackInformation.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelMute.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelPeakMeter.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelSession.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelVolume.xaml" />
+    <Page Remove="XearONE.UI.UserControls.EndpointControl\EndpointConsole.xaml" />
+    <Page Remove="XearONE.UI.UserControls.GlobalProfile\DeletePopupControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls.GlobalProfile\GlobalProfileControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls.GlobalProfile\ProfileAddControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls.GlobalProfile\ProfileItemControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls.GlobalProfile\ProfilePopupControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\AutoSwitchItemControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\EffectSwitchControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\EndpointListButtonControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\MainGuideControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\MV2SwitchControl.xaml" />
+    <Page Remove="XearONE.UI.UserControls\RecEffectSwitchControl.xaml" />
+    <Page Remove="XearONE.UI\FirmwareUpdateWindow.xaml" />
+    <Page Remove="XearONE.UI\FirmwareUpdateWindowCM2026.xaml" />
+    <Page Remove="XearONE.UI\MainWindow.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content.AutoSwitch\AutoSwitchSettingControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/autoswitch/autoswitchsettingcontrol.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content.AutoSwitch\ProfileAutoSwitch.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/autoswitch/profileautoswitch.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content\EffectControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/effectcontrol.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content\EndpointList.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/endpointlist.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content\Information.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/information.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content\JackSetting.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/jacksetting.xaml" />
+    <Page Include="XearONE.UI.ControlWindow.Content\LEDControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/content/ledcontrol.xaml" />
+    <Page Include="XearONE.UI.ControlWindow\SubWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/subwindow.xaml" />
+    <Page Include="XearONE.UI.ControlWindow\SubWindowTitleCover.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="controlwindow/subwindowtitlecover.xaml" />
+    <Page Include="XearONE.UI.EffectControls.HeadTracking\GuideWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/headtracking/guidewindow.xaml" />
+    <Page Include="XearONE.UI.EffectControls.HeadTracking\HeadTrackingControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/headtracking/headtrackingcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls.HeadTracking\HeadTrackingGuideControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/headtracking/headtrackingguidecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls.HeadTracking\MessageWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/headtracking/messagewindow.xaml" />
+    <Page Include="XearONE.UI.EffectControls.MagicVoice2\MagicVoice2Control.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/magicvoice2/magicvoice2control.xaml" />
+    <Page Include="XearONE.UI.EffectControls.MagicVoice2\PitchEstimation.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/magicvoice2/pitchestimation.xaml" />
+    <Page Include="XearONE.UI.EffectControls.MagicVoice2\PowerSettingsWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/magicvoice2/powersettingswindow.xaml" />
+    <Page Include="XearONE.UI.EffectControls.MagicVoice2\SystemWarningWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/magicvoice2/systemwarningwindow.xaml" />
+    <Page Include="XearONE.UI.EffectControls.MagicVoice2\WarningDialog.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/magicvoice2/warningdialog.xaml" />
+    <Page Include="XearONE.UI.EffectControls.RecordingEffect\RecordingEffectControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/recordingeffect/recordingeffectcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\AINRCaptureControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/ainrcapturecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\AINRPlaybackControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/ainrplaybackcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\EffectControlBackground.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/effectcontrolbackground.xaml" />
+    <Page Include="XearONE.UI.EffectControls\EnvironmentEffectsControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/environmenteffectscontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\EQControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/eqcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\MicEQControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/miceqcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\NoiseReductionControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/noisereductioncontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\VigilanceModeControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/vigilancemodecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\VirtualSpeakerShifterControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/virtualspeakershiftercontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearAudioBrilliantControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearaudiobrilliantcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearDynamicBassControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xeardynamicbasscontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearMagicVoiceControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearmagicvoicecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSingFxEchoControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsingfxechocontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSingFxKeyShiftingControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsingfxkeyshiftingcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSingFxVocalFadingControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsingfxvocalfadingcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSmartVolumeControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsmartvolumecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSurroundHeadphoneControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsurroundheadphonecontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearSurroundMaxControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearsurroundmaxcontrol.xaml" />
+    <Page Include="XearONE.UI.EffectControls\XearVoiceClarityControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="effectcontrols/xearvoiceclaritycontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelBalance.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelbalance.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelBattery.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelbattery.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelEffect.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/paneleffect.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelJackInformation.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/paneljackinformation.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelMute.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelmute.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelPeakMeter.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelpeakmeter.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelSession.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelsession.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl.PropertyPanel\PanelVolume.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/propertypanel/panelvolume.xaml" />
+    <Page Include="XearONE.UI.UserControls.EndpointControl\EndpointConsole.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointcontrol/endpointconsole.xaml" />
+    <Page Include="XearONE.UI.UserControls.GlobalProfile\DeletePopupControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/globalprofile/deletepopupcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls.GlobalProfile\GlobalProfileControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/globalprofile/globalprofilecontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls.GlobalProfile\ProfileAddControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/globalprofile/profileaddcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls.GlobalProfile\ProfileItemControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/globalprofile/profileitemcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls.GlobalProfile\ProfilePopupControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/globalprofile/profilepopupcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\AutoSwitchItemControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/autoswitchitemcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\EffectSwitchControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/effectswitchcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\EndpointListButtonControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/endpointlistbuttoncontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\MainGuideControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/mainguidecontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\MV2SwitchControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/mv2switchcontrol.xaml" />
+    <Page Include="XearONE.UI.UserControls\RecEffectSwitchControl.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="usercontrols/receffectswitchcontrol.xaml" />
+    <Page Include="XearONE.UI\FirmwareUpdateWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="firmwareupdatewindow.xaml" />
+    <Page Include="XearONE.UI\FirmwareUpdateWindowCM2026.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="firmwareupdatewindowcm2026.xaml" />
+    <Page Include="XearONE.UI\MainWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="mainwindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>..\third_party\UI\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\third_party\UI\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi">
+      <HintPath>..\third_party\UI\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinMM">
+      <HintPath>..\third_party\UI\NAudio.WinMM.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core">
+      <HintPath>..\third_party\UI\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl">
+      <HintPath>..\third_party\UI\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="XearONE.Contracts">
+      <HintPath>..\third_party\UI\XearONE.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NAudio.WinForms">
+      <HintPath>..\third_party\UI\NAudio.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

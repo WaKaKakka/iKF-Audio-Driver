@@ -1,0 +1,256 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Img Diagram Bg-->
+    <!--Width: 450 Height: 277-->
+    <BitmapImage x:Key="Img_Diagram_Bg" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/Img_Diagram_Bg.png"/>
+    <!--Img Diagram Bg-->
+
+    <!--MaxWidth: 100 MaxHeight: 100-->
+    <!--Img ModeMusicGaming-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeMusicGaming_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMusicGaming_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeMusicGaming_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMusicGaming_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeMusicGaming_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMusicGaming_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeMusicGaming_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMusicGaming_di.png"/>
+    <!--Img ModeMusicGaming-->
+    <!--RadioButton ModeMusicGaming-->
+    <Style x:Key="RadioButton_ModeMusicGaming" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeMusicGaming-->
+
+    <!--MaxWidth: 100 MaxHeight: 100-->
+    <!--Img ModeMovie-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeMovie_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMovie_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeMovie_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMovie_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeMovie_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMovie_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeMovie_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_ModeMovie_di.png"/>
+    <!--Img ModeMovie-->
+    <!--RadioButton ModeMovie-->
+    <Style x:Key="RadioButton_ModeMovie" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeMovie-->
+
+    <!--MaxWidth: 100 MaxHeight: 100-->
+    <!--Img RoomSizeSmall-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RoomSizeSmall_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeSmall_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RoomSizeSmall_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeSmall_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RoomSizeSmall_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeSmall_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_RoomSizeSmall_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeSmall_di.png"/>
+    <!--Img RoomSizeSmall-->
+    <!--RadioButton RoomSizeSmall-->
+    <Style x:Key="RadioButton_RoomSizeSmall" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton RoomSizeSmall-->
+
+    <!--MaxWidth: 100 MaxHeight: 100-->
+    <!--Img RoomSizeMedium-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RoomSizeMedium_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeMedium_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RoomSizeMedium_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeMedium_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RoomSizeMedium_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeMedium_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_RoomSizeMedium_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeMedium_di.png"/>
+    <!--Img RoomSizeMedium-->
+    <!--RadioButton RoomSizeMedium-->
+    <Style x:Key="RadioButton_RoomSizeMedium" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton RoomSizeMedium-->
+
+    <!--MaxWidth: 100 MaxHeight: 100-->
+    <!--Img RoomSizeLarge-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RoomSizeLarge_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeLarge_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RoomSizeLarge_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeLarge_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RoomSizeLarge_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeLarge_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_RoomSizeLarge_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/RadioButton_RoomSizeLarge_di.png"/>
+    <!--Img RoomSizeLarge-->
+    <!--RadioButton RoomSizeLarge-->
+    <Style x:Key="RadioButton_RoomSizeLarge" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="80"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton RoomSizeLarge-->
+
+    <!--Img L-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_L_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_L_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_L_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_L_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_L_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_L_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_L_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_L_di.png"/>
+    <!--Img L-->
+    <!--CheckBox L-->
+    <Style x:Key="CheckBox_L" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="78"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="98,42,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox L-->
+
+    <!--Img R-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_R_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_R_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_R_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_R_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_R_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_R_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_R_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_R_di.png"/>
+    <!--Img R-->
+    <!--CheckBox R-->
+    <Style x:Key="CheckBox_R" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="78"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="0,42,98,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox R-->
+
+    <!--Img C-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_C_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_C_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_C_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_C_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_C_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_C_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_C_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_C_di.png"/>
+    <!--Img C-->
+    <!--CheckBox C-->
+    <Style x:Key="CheckBox_C" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="70"/>
+        <Setter Property="Height" Value="84"/>
+        <Setter Property="Margin" Value="-8,22,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox C-->
+
+    <!--Img W-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_W_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_W_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_W_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_W_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_W_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_W_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_W_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_W_di.png"/>
+    <!--Img W-->
+    <!--CheckBox W-->
+    <Style x:Key="CheckBox_W" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="90"/>
+        <Setter Property="Margin" Value="90,62,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox W-->
+
+    <!--Img LS-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_LS_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LS_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_LS_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LS_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_LS_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LS_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_LS_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LS_di.png"/>
+    <!--Img LS-->
+    <!--CheckBox LS-->
+    <Style x:Key="CheckBox_LS" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="77"/>
+        <Setter Property="Margin" Value="22,32,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox LS-->
+
+    <!--Img RS-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RS_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RS_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RS_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RS_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RS_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RS_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_RS_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RS_di.png"/>
+    <!--Img RS-->
+    <!--CheckBox RS-->
+    <Style x:Key="CheckBox_RS" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="77"/>
+        <Setter Property="Margin" Value="0,32,22,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox RS-->
+
+    <!--Img LB-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_LB_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LB_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_LB_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LB_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_LB_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LB_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_LB_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_LB_di.png"/>
+    <!--Img LB-->
+    <!--CheckBox LB-->
+    <Style x:Key="CheckBox_LB" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="95"/>
+        <Setter Property="Height" Value="95"/>
+        <Setter Property="Margin" Value="82,0,0,20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox LB-->
+
+    <!--Img RB-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RB_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RB_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RB_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RB_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RB_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RB_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_RB_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundHeadphone/CheckBox_RB_di.png"/>
+    <!--Img RB-->
+    <!--CheckBox RB-->
+    <Style x:Key="CheckBox_RB" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="95"/>
+        <Setter Property="Height" Value="95"/>
+        <Setter Property="Margin" Value="0,0,82,20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox RB-->
+
+</ResourceDictionary>

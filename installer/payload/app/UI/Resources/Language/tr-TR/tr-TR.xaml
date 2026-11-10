@@ -1,0 +1,1087 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        Kapat
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        Etkinleştir
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        Devre Dışı Bırak
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        Sıfırla
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        Sol
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        Sağ
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        Uygulama Penceresini Kapat
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        Uygulama Penceresini Küçült
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        Bilgi
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        Cihaz Ekle
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        Bu Rehberi Bir Daha Gösterme
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        Aç
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        Çık
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        Cihaz Ayarları ve Bilgileri
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        Varsayılan Cihaz Ayarı
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        Varsayılan Cihaz
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        Varsayılan cihaz olarak ayarla
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        Varsayılan İletişim Cihazı
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        Varsayılan iletişim cihazı olarak ayarla
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        Cihaz Formatı
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        Format
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        Cihaz Bilgisi
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        Cihaz Adı:
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        Donanım Yazılımı Sürümü:
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        Sürücü Sürümü:
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        Ses Codec Adı:
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        Ses Efektleri
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        Ses Cihazı Listesi
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        Oynatma Cihazları
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        Yakalamalı Cihazlar
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        Bilgi
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        Web Sitesi Bağlantısı
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        Uygula
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        Dil Değişikliğini Uygula
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        Uygulama Sürümü
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        SDK DLL Sürümü
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        Donanım Yazılımı Güncellemesi
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        Donanım Yazılımını Güncelle
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        Donanım Yazılımı Güncellemesi
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        Cihaz Donanım Yazılımı Bilgisi
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        Model Adı
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        Sürüm
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        Seçilen Donanım Yazılımı Bilgisi
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        Dosya Adı
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        Tip
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        Güncelle
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        Kapat
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        Uyarı
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. Lütfen diğer tüm programları kapatın
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. Güncelleme sırasında bu programı kapatmayın
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. Güncelleme sırasında cihazın bağlantısını kesmeyin
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. Güncelleme sırasında kulaklığı kapatmayın
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        Güncelleniyor, lütfen bir süre bekleyin
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        Bilinmiyor
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        Hazırlanıyor...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        Güncelleniyor...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        Yeniden Başlatılıyor...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        Sonlandırılıyor...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        Bitti
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        EM
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        EQ
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        SMX
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        COMP.
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        NG
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        AB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        DB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        ECHO
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        MV
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        KS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        VF
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        SVN
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        VC
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        3D Audio
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI MV
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        MV II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        REC Effect
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        HD Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        AI Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        Çevre Efektleri
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        Ekolayzır
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        Mikrofon Ekolayzırı
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        Sanal 7.1 Hoparlör Değiştirici
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        Kompresör
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        Gürültü Kapısı
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFX Eko
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xear Sihirli Ses
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFX Tuş Değiştirme
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFX Vokal Azaltma
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xear Akıllı Ses
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Xear Surround Kulaklık
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xear Ses Netliği
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3D Panorama Ses
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AI Sihirli Ses
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        Sihirli Ses II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        Kayıt Efekti
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        Speaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        Microphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        Line
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        SPDIF
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        Aux
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CDPlayer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        StereoMix
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        SPDIFInRCA
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        SpeakerQuarter
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        Headset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        DesktopSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        FrontMic
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        FrontHeadphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        SpeakerPhone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        MicrophoneArray
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        CommunicationSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        Unknown
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        Bu Cihazı Panelden Kaldır
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        Ses Cihazı Ayarı
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        Cihaz Oturumu
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        Seviyeye geçmek için tıklayın
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        dB'ye geçmek için tıklayın
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        Ana Ses Seviyesi
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        Tepe Metre
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        Ana Efekt Anahtarı
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        Efekt Ayarı
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        Efekt Yok
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        Denge
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        Sesi Aç
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        Sesi Kapat
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        LED
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        Cihaz Bağlantısı Kesildi
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        Panele Ekle
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        Panelden Kaldır
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        AI Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        AI Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        Seviye
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        Düşük
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        Orta
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        Yüksek
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        Gürültü Azaltma Seviyesi
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        Ekolayzır
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        Varsayılan
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        Bas
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        Caz
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        Dans
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        Canlı
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        Rap
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        Klasik
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        Soft Rock
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        Metal
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        Tiz
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        Rock
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        Vokal
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        Ön Ayarlı Profil
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        Profile Kaydet
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        Profil Adını Girin
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        Kazanç Değeri
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        Mikrofon Ekolayzırı
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        Sıfırla
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        Çevre Efektleri
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        Çevre
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        Hiçbiri
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        Genel
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        Dolgulu Hücre
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        Oda
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        Banyo
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        Oturma Odası
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        Taş Oda
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        Oditoryum
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        Konser Salonu
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        Mağara
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        Arena
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        Hangar
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        Halı Kaplı Koridor
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        Koridor
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        Taş Koridor
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        Ara Sokak
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        Orman
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        Şehir
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        Dağlar
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        Taş Ocağı
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        Ova
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        Otopark
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        Kanalizasyon Borusu
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        Su Altı
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        Uyuşturulmuş
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        Baş Dönmesi
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        Psikotik
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        Karaoke
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFX Eko
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        Eko Seviyesi
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFX Tuş Değiştirme
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        Perdeyi Yükselt
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        Perdeyi Alçalt
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFX Vokal Azaltma
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        Ses Yok
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        Ses
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xear Surround Kulaklık
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        Efekt Modu
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        Surround Modu
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        Müzik/Oyun Modu
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        Film Modu
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        Oda Boyutu
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        Surround Oda Boyutu
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        Küçük Oda
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        Orta Oda
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        Büyük Oda
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        Sol Ön Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        Sağ Ön Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        Orta Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        Subwoofer Testi
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        Sol Yan Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        Sağ Yan Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        Sol Arka Test
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        Sağ Arka Test
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xear Ses Parlaklığı
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        Parlaklık Seviyesi
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xear Dinamik Bas
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        Bas Seviyesi
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        Kesme Frekansı
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xear Akıllı Ses
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        Müzik Modu
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        Yüksek Dinamik
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        Konuşma Modu
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        Düşük Dinamik
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        Müzik Modu
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        Konuşma Modu
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xear Ses Netliği
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        Ses Netliği Seviyesi
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        İletişim için Gürültü Azaltma
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xear Sihirli Ses
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        Mod
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        Canavar
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        Çizgi Film
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        Erkek
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        Kadın
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        Sanal 7.1 Hoparlör Değiştirici
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        Saat Yönünde
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        Saat Yönünün Tersi
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        Manuel Döndürme
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        Manuel Kaydırma
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        Sol Ön
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        Sağ Ön
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        Sol Yan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        Sağ Yan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        Sol Arka
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        Sağ Arka
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        Orta
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        Woofer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        Kafa
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        Kazancı Azalt
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        Kazancı Artır
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        Seviye
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3D Panorama Ses
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        Kafa Takibi
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        3D Yankı
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        Yeniden Merkezle
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        Kafa takibini etkinleştir
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        Yankıyı etkinleştir
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        Kafa pozisyonunu yeniden merkezle
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        Kafa Takibi Rehberi
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        Uyarı
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        Kulaklıklar Bağlı Değil
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        Kayıt Efekti
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        AI Gürültü Azaltma
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        Kompresör
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        Uzun Mesafe Kayıt
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        Sadece Ses Bırak
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        Ses Seviyesini Dengele
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        Maksimum Alma Mesafesi
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        Maks
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        Varsayılan
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        Düşük
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        Sihirli Ses II
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        Erkek (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        Kadın (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        Erkek Çocuk (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        Kız Çocuk (AI)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        Düşük
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        Yüksek
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        Perde Ayarı
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        Ses Monitörü
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        Otomatik Perde Tahmini
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        Profili Sıfırla
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        Profili Kaydet
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        Tepe Metre
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        Sesinizi Dinleyin
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        Kişiselleştirilmiş Ses Ayarı
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        Lütfen aşağıdaki metni yüksek sesle okuyun. Ses özelliklerinize göre ses modülasyonu efektini optimize edeceğiz.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        Kendinizi bir dağın tepesinde dururken, altınızda geniş bir manzaranın uzandığını hayal edin. Sesinizin yankısı, dağ esintisiyle uyum içinde açık alanı dolaşıyor.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        Başla
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        Çık
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        İşleniyor...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        Rehber
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        İleri
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        Geri
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        Bitir
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        Oynatılıyor...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        Lütfen kulaklığın doğru takıldığından ve "Kafa Takibi" işlevinin açık olduğundan emin olun.
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        Lütfen ekrana doğru bakın ve başınızı mümkün olduğunca sabit tutmaya çalışın, kulaklık ses alanını doğru konumuna sıfırlamak için ayar sayfasındaki "Sıfırla" düğmesine tıklayın.
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        Şimdi başınızı çevirmeye çalışın ve soldaki kulaklık gösterge modelinin baş hareketlerinizle birlikte dönüp dönmediğini gözlemleyin.
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        Lütfen önce çalmakta olan tüm ses kaynaklarını kapatın. Ardından bir test sesi çalacağız. Hazır olduğunuzda İleri'ye tıklayın.
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        Şimdi çalmakta olan sesi duymalısınız. Gözlerinizi kapatıp başınızı bir yandan diğer yana çevirerek sesin yönündeki değişikliği hissetmeye çalışmanızı öneririz.
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        Her şey yolundaysa, tebrikler! 3D Panorama Uzamsal Ses Efekti ayarını başarıyla tamamladınız. Deneyimin tadını çıkarın.
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        LED
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        Sabit Açık
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        Yanıp Sönen
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        Nefes Alan
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        Kalp Atışı
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

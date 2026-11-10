@@ -1,0 +1,128 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--Width: 1366 Height: 768-->
+    <!--Img MainBackground-->
+    <BitmapImage x:Key="Img_MainBackground" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Img_MainBackground.png"/>
+    <!--Img MainBackground-->
+
+    <!--MaxWidth: 500 MaxHeight: 140-->
+    <!--Img BannerLogo-->
+    <BitmapImage x:Key="Img_BannerLogo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Img_BannerLogo.png"/>
+    <!--Img BannerLogo-->
+    <!--BannerLogo-->
+    <Style x:Key="BannerLogo" TargetType="Image">
+        <Setter Property="Width" Value="350"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Source" Value="{StaticResource Img_BannerLogo}"/>
+    </Style>
+    <!--BannerLogo-->
+
+    <!--Img App Close-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_App_Close_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Close_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_App_Close_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Close_mo.png"/>
+    <!--Img App Close-->
+    <!--Button App Close-->
+    <Style x:Key="Button_App_Close" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="56"/>
+        <Setter Property="Height" Value="39"/>
+        <Setter Property="Margin" Value="0,1,1,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button App Close-->
+
+    <!--Img App Minimize-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_App_Minimize_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Minimize_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_App_Minimize_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Minimize_mo.png"/>
+    <!--Img App Minimize-->
+    <!--Button App Minimize-->
+    <Style x:Key="Button_App_Minimize" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="56"/>
+        <Setter Property="Height" Value="39"/>
+        <Setter Property="Margin" Value="0,1,57,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button App Minimize-->
+
+    <!--Img App Info-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_App_Info_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Info_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_App_Info_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Info_mo.png"/>
+    <!--Img App Info-->
+    <!--Button App Info-->
+    <Style x:Key="Button_App_Info" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Margin" Value="0,40,10,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button App Info-->
+
+    <!--Img GlobalProfile-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_GlobalProfile_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Info_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_GlobalProfile_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_Info_mo.png"/>
+    <!--Img GlobalProfile-->
+    <!--Button GlobalProfile-->
+    <Style x:Key="Button_GlobalProfile" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="Height" Value="80"/>
+        <Setter Property="Margin" Value="100,0,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button GlobalProfile-->
+
+    <!--Img ProfileAutoSwitch-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ProfileAutoSwitch_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AutoSwitch_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ProfileAutoSwitch_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AutoSwitch_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ProfileAutoSwitch_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AutoSwitch_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ProfileAutoSwitch_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AutoSwitch_di.png"/>
+    <!--Img ProfileAutoSwitch-->
+    <!--Button ProfileAutoSwitch-->
+    <Style x:Key="Button_ProfileAutoSwitch" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="60"/>
+        <Setter Property="Height" Value="60"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button ProfileAutoSwitch-->
+
+    <!--Img AddDevice-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_AddDevice_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AddDevice_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_AddDevice_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AddDevice_mo.png"/>
+    <!--Img AddDevice-->
+    <!--Button AddDevice-->
+    <Style x:Key="Button_AddDevice" TargetType="Image">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button AddDevice-->
+
+    <!--MaxWidth: 1273 MaxHeight: 628-->
+    <!--Img Watermark-->
+    <BitmapImage x:Key="Img_Watermark" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Img_Watermark.png"/>
+    <!--Img Watermark-->
+    <!--Watermark-->
+    <Style x:Key="Watermark" TargetType="Image">
+        <Setter Property="Width" Value="528"/>
+        <Setter Property="Height" Value="528"/>
+        <Setter Property="Opacity" Value="0.7"/>
+        <Setter Property="Source" Value="{StaticResource Img_Watermark}"/>
+    </Style>
+    <!--Watermark-->
+
+</ResourceDictionary>

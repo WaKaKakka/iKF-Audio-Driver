@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--MaxWidth: 50 MaxHeight: 50-->
+    <!--Img Playback-->
+    <BitmapImage x:Key="Img_Playback" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/EndpointList/Img_Playback.png"/>
+    <!--Img Playback-->
+    <!--Playback-->
+    <Style x:Key="Playback" TargetType="Image">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Source" Value="{StaticResource Img_Playback}"/>
+    </Style>
+    <!--Playback-->
+
+    <!--MaxWidth: 50 MaxHeight: 50-->
+    <!--Img Capture-->
+    <BitmapImage x:Key="Img_Capture" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/EndpointList/Img_Capture.png"/>
+    <!--Img Capture-->
+    <!--Capture-->
+    <Style x:Key="Capture" TargetType="Image">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Source" Value="{StaticResource Img_Capture}"/>
+    </Style>
+    <!--Capture-->
+
+</ResourceDictionary>

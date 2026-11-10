@@ -1,0 +1,1087 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        Tutup
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        Aktifkan
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        Nonaktifkan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        Setel Ulang
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        Kiri
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        Kanan
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        Tutup Jendela Aplikasi
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        Minimalkan Jendela Aplikasi
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        Informasi
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        Tambah Perangkat
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        Jangan tampilkan panduan ini lagi
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        Buka
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        Keluar
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        Pengaturan &amp; Informasi Perangkat
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        Pengaturan Perangkat Default
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        Perangkat Default
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        Atur sebagai perangkat default
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        Perangkat Komunikasi Default
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        Atur sebagai perangkat komunikasi default
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        Format Perangkat
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        Format
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        Informasi Perangkat
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        Nama Perangkat:
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        Versi Firmware:
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        Versi Driver:
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        Nama Codec Audio:
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        Kontrol Efek Suara
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        Daftar Perangkat Audio
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        Perangkat Putar Ulang
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        Perangkat Rekam
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        Informasi
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        Tautan Situs Web
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        Terapkan
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        Terapkan Perubahan Bahasa
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        Versi Aplikasi
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        Versi SDK DLL
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        Pembaruan Firmware
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        Perbarui Firmware
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        Pembaruan Firmware
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        Info Firmware Perangkat
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        Nama Model
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        Versi
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        Info Firmware Terpilih
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        Nama Berkas
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        Tipe
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        Perbarui
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        Tutup
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        Peringatan
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. Harap tutup semua program lain
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. Jangan tutup program ini saat memperbarui
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. Jangan cabut perangkat saat memperbarui
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. Jangan matikan headphone saat memperbarui
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        Sedang memperbarui, harap tunggu
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        Tidak Diketahui
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        Mempersiapkan...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        Memperbarui...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        Memulai ulang...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        Menyelesaikan...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        Selesai
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        EM
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        EQ
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        SMX
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        COMP.
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        NG
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        AB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        DB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        ECHO
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        MV
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        KS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        VF
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        SVN
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        VC
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        3D Audio
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI MV
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        MV II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        REC Effect
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        Pengurangan Kebisingan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        Pengurangan Kebisingan HD
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        Pengurangan Kebisingan AI
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        Efek Lingkungan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        Ekualiser
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        Ekualiser Mikrofon
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        7.1 Virtual Speaker Shifter
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        Kompresor
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        Gerbang Kebisingan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFX Echo
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFX Key Shifting
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFX Vocal Fading
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Headphone Xear Surround
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3D Panoramic Audio
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AI Magic Voice
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        Magic Voice II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        Efek Perekaman
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        Speaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        Microphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        Line
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        SPDIF
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        Aux
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CDPlayer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        StereoMix
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        SPDIFInRCA
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        SpeakerQuarter
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        Headset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        DesktopSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        FrontMic
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        FrontHeadphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        SpeakerPhone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        MicrophoneArray
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        CommunicationSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        Unknown
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        Hapus perangkat ini dari panel
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        Pengaturan Perangkat Audio
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        Sesi Perangkat
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        Klik untuk mengubah ke Tingkat
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        Klik untuk mengubah ke dB
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        Volume
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        PeakMeter
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        Sakelar Efek Utama
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        Pengaturan Efek
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        Tidak ada efek
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        Keseimbangan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        Aktifkan Suara
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        Bisukan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        LED
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        Perangkat terputus
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        Tambahkan ke panel
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        Hapus dari panel
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        Pengurangan Kebisingan AI
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        Pengurangan Kebisingan AI
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        Level
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        Rendah
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        Sedang
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        Tinggi
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        Tingkat Pengurangan Kebisingan
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        Ekualiser
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        Default
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        Bass
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        Jazz
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        Dance
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        Live
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        Rap
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        Klasik
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        SoftRock
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        Metal
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        Treble
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        Rock
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        Vokal
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        Profil Preset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        Simpan ke Profil
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        Ketik Nama Profil
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        Nilai Gain
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        Ekualiser Mikrofon
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        Setel Ulang
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        Efek Lingkungan
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        Lingkungan
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        Tidak Ada
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        Generik
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        Sel Berbantalan
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        Kamar
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        Kamar Mandi
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        Ruang Tamu
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        Kamar Batu
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        Auditorium
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        Balai Konser
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        Gua
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        Arena
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        Hanggar
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        Lorong Berkarpet
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        Lorong
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        Koridor Batu
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        Gang
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        Hutan
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        Kota
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        Pegunungan
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        Tambang
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        Dataran
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        Tempat Parkir
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        Pipa Selokan
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        Di Bawah Air
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        Dibius
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        Pusing
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        Psikotik
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        Karaoke
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFX Echo
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        Tingkat Gema
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFX Key Shifting
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        Nada Naik
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        Nada Turun
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFX Vocal Fading
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        Tidak Ada Suara
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        Suara
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xear Surround Headphone
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        Mode Efek
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        Mode Surround
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        Mode Musik / Gaming
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        Mode Film
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        Ukuran Ruangan
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        Ukuran Ruangan Surround
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        Ruangan Kecil
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        Ruangan Sedang
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        Ruangan Besar
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        Uji Depan Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        Uji Depan Kanan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        Uji Tengah
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        Uji Subwoofer
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        Uji Samping Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        Uji Samping Kanan
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        Uji Belakang Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        Uji Belakang Kanan
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        Tingkat Kecemerlangan
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        Tingkat Bass
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        Frekuensi Potong
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        Mode Musik
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        Dinamika Tinggi
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        Mode Bicara
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        Dinamika Rendah
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        Mode Musik
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        Mode Bicara
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        Tingkat Kejelasan Suara
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        Peredam Kebisingan untuk Komunikasi
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        Mode
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        Monster
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        Kartun
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        Pria
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        Wanita
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        Simulator Speaker Virtual 7.1
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        Searah Jarum Jam
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        Berlawanan Arah Jarum Jam
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        Rotasi Manual
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        Pergeseran Manual
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        Depan Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        Depan Kanan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        Samping Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        Samping Kanan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        Belakang Kiri
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        Belakang Kanan
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        Tengah
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        Woofer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        Kepala
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        Kurangi Gain
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        Tingkatkan Gain
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        Pengurangan Kebisingan
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        Level
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3D Audio Panorama
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        Pelacakan Kepala
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        Reverb 3D
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        Pusatkan Kembali
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        Aktifkan Pelacakan Kepala
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        Aktifkan Reverb
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        Pusatkan Ulang Posisi Kepala
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        Tutorial Pelacakan Kepala
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        Peringatan
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        Headphone Terputus
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        Efek Perekaman
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        Pengurangan Kebisingan AI
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        Kompresor
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        Perekaman Jarak Jauh
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        Pertahankan Hanya Suara
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        Jadikan Volume Suara Merata
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        Jarak Pengambilan Maksimum
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        Maks
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        Default
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        Rendah
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        Magic Voice II
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        Pria (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        Wanita (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        Anak Laki-laki (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        Anak Perempuan (AI)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        Rendah
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        Tinggi
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        Penyesuaian Nada
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        Monitor Suara
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        Estimasi Nada Otomatis
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        Setel Ulang Profil
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        Simpan Profil
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        Pengukur Puncak
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        Dengarkan Suara Anda
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        Penyiapan Suara yang Dipersonalisasi
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        Harap baca teks berikut dengan suara keras. Kami akan mengoptimalkan efek modulasi suara berdasarkan karakteristik suara Anda.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        Bayangkan Anda berada di puncak gunung, dengan pemandangan luas di bawah Anda. Gema suara Anda melayang melalui ruang terbuka, selaras dengan angin gunung.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        Mulai
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        Keluar
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        Sedang memproses...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        Panduan
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        Selanjutnya
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        Sebelumnya
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        Selesai
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        Memutar...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        Pastikan headphone dipakai dengan benar, dan fungsi "Pelacakan Kepala" diaktifkan.
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        Harap lihat langsung ke layar, jaga kepala Anda setenang mungkin, dan klik tombol "Reset" di halaman pengaturan untuk mengembalikan medan suara headphone ke posisi yang benar.
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        Sekarang coba putar kepala Anda dan amati apakah model ilustrasi headphone di sebelah kiri mengikuti gerakan kepala Anda.
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        Harap tutup semua sumber audio yang sedang diputar, selanjutnya kami akan memutar audio uji, ketika Anda siap, tekan Selanjutnya.
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        Anda seharusnya sekarang bisa mendengar audio yang sedang diputar, kami sarankan Anda bisa menutup mata dan mencoba memutar kepala ke kiri dan ke kanan, merasakan perubahan arah suara.
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        Jika semuanya baik-baik saja, selamat, Anda telah berhasil mengatur efek audio spasial 3D panorama, nikmati pengalamannya.
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        LED
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        Konstan
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        Berkedip
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        Napas
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        Detak Jantung
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

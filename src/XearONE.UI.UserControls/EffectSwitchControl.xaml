@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.UserControls.EffectSwitchControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:XearONE.UI.UserControls" Width="74" Height="24" MinWidth="74" MinHeight="24" MaxWidth="74" MaxHeight="24" Loaded="EffectSwitchControl_Loaded">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="\Resources\Skin\Styles\EndpointControl\EffectSwitchControlStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+      <ControlTemplate x:Key="CheckBox_EffectListSwitch_Template" TargetType="{x:Type CheckBox}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_EffectListSwitch_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_EffectListSwitch_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_EffectListSwitch_se}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="CheckBox_EffectListSwitch_Style" TargetType="{x:Type CheckBox}" BasedOn="{StaticResource CheckBox_EffectListSwitch}">
+        <Setter Property="Template" Value="{StaticResource CheckBox_EffectListSwitch_Template}" />
+        <Setter Property="Foreground" Value="{StaticResource SolidColorBrush_Label_Main}" />
+        <Style.Triggers>
+          <Trigger Property="IsEnabled" Value="False">
+            <Setter Property="Foreground" Value="{StaticResource SolidColorBrush_Disable}" />
+          </Trigger>
+        </Style.Triggers>
+      </Style>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <Grid>
+    <CheckBox Name="CheckBox_EffectSwitch" HorizontalContentAlignment="Center" ToolTipService.InitialShowDelay="0" Style="{StaticResource CheckBox_EffectListSwitch_Style}" Click="EffectSwitch_Click">
+      <Label Name="Label_EffectName" Content="" HorizontalAlignment="Center" Style="{StaticResource Label_Main_Style}" FontSize="12" />
+    </CheckBox>
+  </Grid>
+</UserControl>

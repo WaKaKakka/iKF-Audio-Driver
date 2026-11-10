@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--MaxWidth: 45 MaxHeight: 45-->
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Mute_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/MutePanel/CheckBox_Mute_mo.png"/>
+    <!--MouseOver-->
+
+    <!--MaxWidth: 45 MaxHeight: 45-->
+    <!--Img MutePlayback-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_MutePlayback_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/MutePanel/CheckBox_MutePlayback_no.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_MutePlayback_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/MutePanel/CheckBox_MutePlayback_se.png"/>
+    <!--Img MutePlayback-->
+    <!--CheckBox MutePlayback-->
+    <Style x:Key="CheckBox_MutePlayback" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox MutePlayback-->
+
+    <!--MaxWidth: 45 MaxHeight: 45-->
+    <!--Img MuteCapture-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_MuteCapture_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/MutePanel/CheckBox_MuteCapture_no.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_MuteCapture_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/MutePanel/CheckBox_MuteCapture_se.png"/>
+    <!--Img MuteCapture-->
+    <!--CheckBox MuteCapture-->
+    <Style x:Key="CheckBox_MuteCapture" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox MuteCapture-->
+
+</ResourceDictionary>

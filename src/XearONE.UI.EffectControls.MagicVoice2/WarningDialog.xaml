@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.EffectControls.MagicVoice2.WarningDialog" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" Width="500" Height="250" xmlns:magicvoice2="clr-namespace:XearONE.UI.EffectControls.MagicVoice2;assembly=XearONE">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Rectangle Grid.RowSpan="2">
+      <Shape.Fill>
+        <SolidColorBrush Color="{StaticResource Color_Background}" />
+      </Shape.Fill>
+      <Shape.Stroke>
+        <SolidColorBrush Color="{StaticResource Color_Background_Stroke}" />
+      </Shape.Stroke>
+    </Rectangle>
+    <Grid Row="0">
+      <Rectangle>
+        <Shape.Fill>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+        </Shape.Fill>
+        <Shape.Stroke>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+        </Shape.Stroke>
+      </Rectangle>
+      <Button Name="Btn_Close" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Button_Close_Style}" Click="Btn_Close_Click" />
+      <Label Name="lblTitle" Content="Warning" Style="{StaticResource Label_WindowTitle_Style}" />
+    </Grid>
+    <Grid Row="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="140" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid Row="0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="40" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="40" />
+        </Grid.ColumnDefinitions>
+        <Label Name="lblDesc" Grid.Column="1" Style="{StaticResource Label_Main_Style}" FontSize="18" VerticalAlignment="Center">
+          <ContentControl.Content>
+            <AccessText TextWrapping="Wrap" Text="Due to the absence of a dedicated graphics card detected on your platform, AI Magic Voice function cannot be activated. The traditional Magic Voice will be using instead." />
+          </ContentControl.Content>
+        </Label>
+      </Grid>
+      <Grid Name="grdWarning" Row="1" Visibility="Hidden">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="40" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="40" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="1" Style="{StaticResource Label_Main_Style}" FontSize="16" VerticalAlignment="Center">
+          <ContentControl.Content>
+            <AccessText TextWrapping="Wrap" Text="Dear users,&#xA;We found the system performance is not qualified to run AI Magic Voice feature and will disable this feature by default. Sometimes it's caused by improper system power settings. In order to get better system performance, we recommend you to plug in AC power into your system and set the power mode yto Performance and the try again." />
+          </ContentControl.Content>
+        </Label>
+      </Grid>
+      <Grid Row="2">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="50" />
+          <ColumnDefinition Width="80" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <CheckBox Name="chkDoNotShowAgain" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource CheckBox_Style}" Click="DoNotShow_Click" />
+        <Label Content="Do not show this message in the future." Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16" Style="{StaticResource Label_Main_Style}" />
+      </Grid>
+    </Grid>
+  </Grid>
+</UserControl>

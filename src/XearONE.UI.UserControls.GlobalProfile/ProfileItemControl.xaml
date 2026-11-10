@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.UserControls.GlobalProfile.ProfileItemControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:XearONE.UI.UserControls.GlobalProfile" Width="300" Height="100" Loaded="ProfileItemControl_Loaded">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <ControlTemplate x:Key="RadioButton_Profile_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Border Name="Background" CornerRadius="5" BorderThickness="1" Background="{StaticResource SolidColorBrush_RectButtonBackground}" BorderBrush="{StaticResource SolidColorBrush_Background_Stroke}" />
+          <Label Content="{TemplateBinding ContentControl.Content}" ContentTemplate="{TemplateBinding ContentControl.ContentTemplate}" Width="210" Height="70" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="22" VerticalContentAlignment="Center" Style="{StaticResource Label_Main_Style}" />
+          <Border Name="stroke_se" Background="#00000000" CornerRadius="5" BorderThickness="4" Visibility="Hidden" Style="{StaticResource Border_Gaming}" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Background" Property="Border.BorderBrush" Value="{StaticResource SolidColorBrush_Background_Stroke_mo}" />
+            <Setter TargetName="Background" Property="Border.BorderThickness" Value="3" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="stroke_se" Property="UIElement.Visibility" Value="Visible" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_Profile_Style" TargetType="{x:Type RadioButton}">
+        <Setter Property="RadioButton.GroupName" Value="Profile" />
+        <Setter Property="Template" Value="{StaticResource RadioButton_Profile_Template}" />
+      </Style>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <Grid Margin="10">
+    <RadioButton Name="RadioButton_Profile" Style="{StaticResource RadioButton_Profile_Style}" Content="{Binding profileName}" PreviewMouseLeftButtonDown="RadioButton_Profile_PreviewMouseLeftButtonDown" />
+    <Button Name="Button_Delete" Width="40" Height="40" HorizontalAlignment="Right" Margin="0,0,10,0" Style="{StaticResource Button_Close_Style}" Click="Button_Delete_Click" />
+    <Popup Name="DeletePopup" Placement="Bottom" StaysOpen="False" AllowsTransparency="True" PopupAnimation="Fade" PlacementTarget="{Binding ElementName=Button_Delete}" Opened="DeletePopup_Opened" Closed="DeletePopup_Closed">
+      <local:DeletePopupControl />
+    </Popup>
+  </Grid>
+</UserControl>

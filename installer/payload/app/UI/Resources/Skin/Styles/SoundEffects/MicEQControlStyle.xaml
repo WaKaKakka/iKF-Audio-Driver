@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Button Reset-->
+    <Style x:Key="Button_Reset"
+           TargetType="{x:Type Button}"
+           BasedOn="{StaticResource Button_Reset_Style}">
+        <Setter Property="Margin" Value="18,0,0,0"/>
+    </Style>
+    <!--Button Reset-->
+
+    <!--Slider Gain-->
+    <Style x:Key="Slider_Gain" TargetType="{x:Type Slider}">
+        <Setter Property="Width" Value="15"/>
+        <Setter Property="Height" Value="200"/>
+    </Style>
+    <!--Slider Gain-->
+
+</ResourceDictionary>

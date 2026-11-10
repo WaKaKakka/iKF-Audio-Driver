@@ -1,0 +1,76 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Img Panel EQSlider Bg-->
+    <BitmapImage x:Key="Img_Panel_EQSlider_Bg" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/Img_Panel_EQSlider_Bg.png"/>
+    <!--Img Panel EQSlider Bg-->
+    <!--Panel EQSlider Bg-->
+    <Style x:Key="Panel_EQSlider_Bg" TargetType="Image">
+        <Setter Property="Width" Value="562"/>
+        <Setter Property="Height" Value="310"/>
+        <Setter Property="Source" Value="{StaticResource Img_Panel_EQSlider_Bg}"/>
+    </Style>
+    <!--Panel EQSlider Bg-->
+
+    <!--EQSlider-->
+    <Style x:Key="EQSlider"
+           TargetType="{x:Type Slider}"
+           BasedOn="{StaticResource Slider_Vertical_Style}">
+        <Setter Property="Width" Value="15"/>
+        <Setter Property="Height" Value="210"/>
+    </Style>
+    <!--EQSlider-->
+
+    <!--Width: 75 Height: 30-->
+    <!--Img RadioButton Preset-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/RadioButton_Preset_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/RadioButton_Preset_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/RadioButton_Preset_se.png"/>
+    <!--Img RadioButton Preset-->
+    <!--RadioButton Preset-->
+    <Style x:Key="RadioButton_Preset" TargetType="{x:Type RadioButton}">
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton Preset-->
+
+    <!--ComboBox Mode-->
+    <Style x:Key="ComboBox_Mode"
+           TargetType="{x:Type ComboBox}"
+           BasedOn="{StaticResource ComboBox_Style}">
+        <Setter Property="Width" Value="126"/>
+        <Setter Property="Height" Value="25.05"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+    </Style>
+    <!--ComboBox Mode-->
+
+    <!--Img Save-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Save_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/Button_Save_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Save_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/Button_Save_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Save_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/Button_Save_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Save_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/Equalizer/Button_Save_di.png"/>
+    <!--Img Save-->
+    <!--Button Save-->
+    <Style x:Key="Button_Save" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Margin" Value="0,0,10,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Save-->
+
+    <!--TextBox-->
+    <Style x:Key="TextBox_ProfileName" TargetType="{x:Type TextBox}">
+        <Setter Property="Width" Value="125"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+    </Style>
+    <!--TextBox-->
+
+</ResourceDictionary>

@@ -1,0 +1,73 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Img AINR-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_AINR_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_AINR_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_AINR_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_AINR_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_AINR_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_AINR_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_AINR_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_AINR_di.png"/>
+    <!--Img AINR-->
+    <!--RadioButton AINR-->
+    <Style x:Key="RadioButton_AINR" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="175"/>
+        <Setter Property="Height" Value="175"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton AINR-->
+
+    <!--Img Compressor-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Compressor_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Compressor_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Compressor_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Compressor_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Compressor_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Compressor_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Compressor_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Compressor_di.png"/>
+    <!--Img Compressor-->
+    <!--RadioButton Compressor-->
+    <Style x:Key="RadioButton_Compressor" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="175"/>
+        <Setter Property="Height" Value="175"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton Compressor-->
+
+    <!--Img LDR-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_LDR_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_LDR_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_LDR_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_LDR_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_LDR_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_LDR_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_LDR_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_LDR_di.png"/>
+    <!--Img LDR-->
+    <!--RadioButton LDR-->
+    <Style x:Key="RadioButton_LDR" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="175"/>
+        <Setter Property="Height" Value="175"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton LDR-->
+
+    <!--Width: 75 Height: 30-->
+    <!--Img RadioButton Preset-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Preset_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Preset_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_RadioButton_Preset_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/RecordingEffect/RadioButton_Preset_se.png"/>
+    <!--Img RadioButton Preset-->
+    <!--RadioButton Preset-->
+    <Style x:Key="RadioButton_Preset" TargetType="{x:Type RadioButton}">
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton Preset-->
+
+</ResourceDictionary>

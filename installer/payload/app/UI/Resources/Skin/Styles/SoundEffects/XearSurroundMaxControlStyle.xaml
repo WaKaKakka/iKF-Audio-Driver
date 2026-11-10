@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--MaxWidth: 650 MaxHeight: 250-->
+    <!--Img SurroundMax-->
+    <BitmapImage x:Key="Img_SurroundMax_on" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundMax/Img_SurroundMax_on.png"/>
+    <BitmapImage x:Key="Img_SurroundMax_off" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/SurroundMax/Img_SurroundMax_off.png"/>
+    <!--Img SurroundMax-->
+    <Style x:Key="Img_SurroundMax" TargetType="Image">
+        <Setter Property="Width" Value="470"/>
+        <Setter Property="Height" Value="250"/>
+    </Style>
+    <!--Img NoiseReduction-->
+
+</ResourceDictionary>

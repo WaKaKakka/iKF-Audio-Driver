@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="XearONE.UI.ControlWindow.SubWindowTitleCover" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:XearONE.UI.ControlWindow" Width="810" Height="40" Title="SubWindowTitleCover" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Background="#00000000" KeyDown="Window_KeyDown" Loaded="Window_Loaded">
+  <Grid>
+    <Rectangle Grid.RowSpan="2" RadiusX="5" RadiusY="5">
+      <Shape.Fill>
+        <SolidColorBrush Color="{StaticResource Color_Background}" />
+      </Shape.Fill>
+      <Shape.Stroke>
+        <SolidColorBrush Color="{StaticResource Color_Background_Stroke}" />
+      </Shape.Stroke>
+    </Rectangle>
+    <Grid Row="0" MouseDown="Grid_Title_MouseDown">
+      <Rectangle RadiusX="5" RadiusY="5">
+        <Shape.Fill>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+        </Shape.Fill>
+        <Shape.Stroke>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+        </Shape.Stroke>
+      </Rectangle>
+      <Label Name="Label_Title" Content="" Style="{StaticResource Label_WindowTitle_Style}" />
+      <Button Name="Btn_Close" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Button_Close_Style}" Click="Btn_Close_Click" />
+    </Grid>
+  </Grid>
+</Window>

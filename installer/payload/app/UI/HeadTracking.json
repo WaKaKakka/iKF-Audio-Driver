@@ -1,0 +1,12 @@
+{
+  "DetectionTime": 10.0,
+  "FadingTime": 1.0,
+  "YawShiftThreshold": 3.0,
+  "YawPathThreshold": 20.0,
+  "AutoReset": 1,
+  "TestSound": "Wav_Guitar.wav",
+  "HotKey": 0,
+  "BatteryThreshold": 50,
+  "FWVid": 0x0D8C,
+  "FWPid": 0x0337
+}

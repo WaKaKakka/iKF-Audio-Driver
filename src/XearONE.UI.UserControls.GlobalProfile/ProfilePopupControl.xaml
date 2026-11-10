@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.UserControls.GlobalProfile.ProfilePopupControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:XearONE.UI.UserControls.GlobalProfile" xmlns:sva="clr-namespace:XearONE.UI.ControlGraphicEffect" Width="340" Height="400" Loaded="ProfilePopupControl_Loaded">
+  <Grid>
+    <Border Background="{StaticResource SolidColorBrush_Background}" CornerRadius="5" Padding="10" BorderBrush="{StaticResource SolidColorBrush_Background_Stroke}" BorderThickness="1">
+      <sva:ScrollViewerAnimation x:Name="scrollViewerAnimation">
+        <FrameworkElement.Resources>
+          <ResourceDictionary>
+            <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}" BasedOn="{StaticResource ScrollBar_V_Style}" />
+          </ResourceDictionary>
+        </FrameworkElement.Resources>
+        <StackPanel Name="Panel_Profiles" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Vertical" Width="{Binding Width, ElementName=scrollViewerAnimation}" Height="{Binding Height, ElementName=scrollViewerAnimation}" />
+      </sva:ScrollViewerAnimation>
+    </Border>
+  </Grid>
+</UserControl>

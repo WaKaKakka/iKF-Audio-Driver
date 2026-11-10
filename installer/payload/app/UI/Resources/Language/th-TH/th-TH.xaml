@@ -1,0 +1,1087 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        ปิด
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        เปิดใช้งาน
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        ปิดใช้งาน
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        รีเซ็ต
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        ซ้าย
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        ขวา
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        ปิดหน้าต่างแอป
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        ย่อหน้าต่างแอป
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        ข้อมูล
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        เพิ่มอุปกรณ์
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        ไม่ต้องแสดงคู่มือนี้อีก
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        เปิด
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        ออก
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        การตั้งค่าอุปกรณ์และข้อมูล
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        การตั้งค่าอุปกรณ์เริ่มต้น
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        อุปกรณ์เริ่มต้น
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        ตั้งค่าเป็นอุปกรณ์เริ่มต้น
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        อุปกรณ์สื่อสารเริ่มต้น
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        ตั้งค่าเป็นอุปกรณ์สื่อสารเริ่มต้น
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        รูปแบบอุปกรณ์
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        รูปแบบ
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        ข้อมูลอุปกรณ์
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        ชื่ออุปกรณ์:
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        เวอร์ชันเฟิร์มแวร์:
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        เวอร์ชันไดรเวอร์:
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        ชื่อตัวแปลงสัญญาณเสียง:
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        เอฟเฟกต์เสียง
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        รายการอุปกรณ์เสียง
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        อุปกรณ์เล่น
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        อุปกรณ์บันทึก
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        ข้อมูล
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        ลิงก์เว็บไซต์
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        ปรับใช้
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        ปรับใช้การเปลี่ยนภาษา
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        เวอร์ชันแอป
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        เวอร์ชัน SDK DLL
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        อัปเดตเฟิร์มแวร์
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        อัปเดตเฟิร์มแวร์
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        อัปเดตเฟิร์มแวร์
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        ข้อมูลเฟิร์มแวร์อุปกรณ์
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        ชื่อรุ่น
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        เวอร์ชัน
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        ข้อมูลเฟิร์มแวร์ที่เลือก
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        ชื่อไฟล์
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        ชนิด
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        อัปเดต
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        ปิด
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        คำเตือน
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. โปรดปิดโปรแกรมอื่นทั้งหมด
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. อย่าปิดโปรแกรมนี้ระหว่างการอัปเดต
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. อย่าถอดปลั๊กอุปกรณ์ระหว่างการอัปเดต
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. อย่าปิดหูฟังระหว่างการอัปเดต
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        กำลังอัปเดต โปรดรอสักครู่
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        ไม่ทราบ
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        กำลังเตรียม...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        กำลังอัปเดต...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        กำลังรีสตาร์ท...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        กำลังสรุป...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        เสร็จสิ้น
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        EM
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        EQ
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        SMX
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        COMP.
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        NG
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        AB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        DB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        ECHO
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        MV
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        KS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        VF
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        SVN
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        VC
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        3D Audio
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI MV
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        MV II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        REC Effect
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        ลดเสียงรบกวน
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        ลดเสียงรบกวน HD
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        ลดเสียงรบกวน AI
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        เอฟเฟกต์สภาพแวดล้อม
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        อีควอไลเซอร์
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        อีควอไลเซอร์ไมโครโฟน
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        เครื่องเปลี่ยนลำโพงเสมือน 7.1
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        คอมเพรสเซอร์
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        เกตเสียงรบกวน
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFX Echo
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFX Key Shifting
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFX Vocal Fading
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Xear Surround Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3D Panorama Audio
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AI Magic Voice
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        Magic Voice II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        เอฟเฟกต์การบันทึก
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        Speaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        Microphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        Line
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        SPDIF
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        Aux
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CDPlayer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        StereoMix
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        SPDIFInRCA
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        SpeakerQuarter
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        Headset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        DesktopSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        FrontMic
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        FrontHeadphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        SpeakerPhone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        MicrophoneArray
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        CommunicationSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        Unknown
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        ลบอุปกรณ์นี้ออกจากแผงควบคุม
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        การตั้งค่าอุปกรณ์เสียง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        เซสชันอุปกรณ์
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        คลิกเพื่อเปลี่ยนเป็นระดับ
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        คลิกเพื่อเปลี่ยนเป็น dB
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        ระดับเสียงหลัก
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        มิเตอร์วัดระดับสูงสุด
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        สวิตช์เอฟเฟกต์หลัก
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        การตั้งค่าเอฟเฟกต์
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        ไม่มีเอฟเฟกต์
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        สมดุล
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        เปิดเสียง
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        ปิดเสียง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        LED
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        อุปกรณ์ถูกตัดการเชื่อมต่อ
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        เพิ่มไปยังแผงควบคุม
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        ลบออกจากแผงควบคุม
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        การลดเสียงรบกวน AI
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        การลดเสียงรบกวน AI
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        ระดับ
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        ต่ำ
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        ปานกลาง
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        สูง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        ระดับการลดเสียงรบกวน
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        อีควอไลเซอร์
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        ค่าเริ่มต้น
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        เบส
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        แจ๊ส
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        แดนซ์
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        สด
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        แร็ป
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        คลาสสิก
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        ซอฟต์ร็อก
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        เมทัล
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        เสียงแหลม
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        ร็อก
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        เสียงร้อง
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        โปรไฟล์ที่ตั้งไว้ล่วงหน้า
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        บันทึกไปยังโปรไฟล์
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        ป้อนชื่อโปรไฟล์
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        ค่าเกน
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        อีควอไลเซอร์ไมโครโฟน
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        รีเซ็ต
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        เอฟเฟกต์สภาพแวดล้อม
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        สภาพแวดล้อม
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        ไม่มี
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        ทั่วไป
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        ห้องบุผนัง
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        ห้อง
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        ห้องน้ำ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        ห้องนั่งเล่น
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        ห้องหิน
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        หอประชุม
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        ฮอลล์คอนเสิร์ต
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        ถ้ำ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        อารีน่า
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        โรงเก็บเครื่องบิน
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        โถงทางเดินปูพรม
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        โถงทางเดิน
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        ทางเดินหิน
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        ตรอก
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        ป่า
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        เมือง
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        ภูเขา
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        เหมืองหิน
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        ที่ราบ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        ลานจอดรถ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        ท่อระบายน้ำ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        ใต้น้ำ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        เมายา
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        เวียนหัว
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        โรคจิต
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        คาราโอเกะ
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFX Echo
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        ระดับเสียงสะท้อน
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFX Key Shifting
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        เพิ่มระดับเสียง
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        ลดระดับเสียง
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFX Vocal Fading
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        ไม่มีเสียง
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        เสียง
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xear Surround Headphone
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        โหมดเอฟเฟกต์
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        โหมดเสียงรอบทิศทาง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        โหมดเพลง/เกม
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        โหมดภาพยนตร์
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        ขนาดห้อง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        ขนาดห้องเสียงรอบทิศทาง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        ห้องเล็ก
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        ห้องขนาดกลาง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        ห้องใหญ่
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        ทดสอบซ้ายหน้า
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        ทดสอบขวาหน้า
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        ทดสอบตรงกลาง
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        ทดสอบซับวูฟเฟอร์
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        ทดสอบซ้ายข้าง
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        ทดสอบขวาข้าง
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        ทดสอบซ้ายหลัง
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        ทดสอบขวาหลัง
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        ระดับความสดใส
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        ระดับเสียงเบส
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        ความถี่ตัด
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        โหมดเพลง
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        ไดนามิกสูง
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        โหมดพูด
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        ไดนามิกต่ำ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        โหมดเพลง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        โหมดพูด
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        ระดับความชัดเจนของเสียง
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        การลดเสียงรบกวนสำหรับการสื่อสาร
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        โหมด
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        สัตว์ประหลาด
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        การ์ตูน
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        ชาย
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        หญิง
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        Virtual 7.1 Speaker Shifter
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        ตามเข็มนาฬิกา
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        ทวนเข็มนาฬิกา
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        หมุนด้วยตนเอง
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        เลื่อนด้วยตนเอง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        ซ้ายหน้า
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        ขวาหน้า
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        ซ้ายข้าง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        ขวาข้าง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        ซ้ายหลัง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        ขวาหลัง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        ตรงกลาง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        วูฟเฟอร์
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        ศีรษะ
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        ลดเกน
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        เพิ่มเกน
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        การลดเสียงรบกวน
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        ระดับ
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3D Panorama Audio
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        การติดตามศีรษะ
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        เสียงก้อง 3D
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        จัดตำแหน่งใหม่
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        เปิดใช้งานการติดตามศีรษะ
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        เปิดใช้งานเสียงก้อง
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        จัดตำแหน่งศีรษะใหม่
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        คู่มือการติดตามศีรษะ
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        คำเตือน
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        หูฟังถูกตัดการเชื่อมต่อ
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        เอฟเฟกต์การบันทึก
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        การลดเสียงรบกวน AI
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        คอมเพรสเซอร์
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        การบันทึกระยะไกล
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        คงไว้เฉพาะเสียง
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        ปรับสมดุลเสียง
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        ระยะรับเสียงสูงสุด
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        สูงสุด
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        ค่าเริ่มต้น
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        ต่ำ
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        Magic Voice II
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        ชาย (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        หญิง (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        เด็กผู้ชาย (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        เด็กผู้หญิง (AI)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        ต่ำ
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        สูง
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        การปรับระดับเสียง
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        การตรวจสอบเสียง
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        การประมาณระดับเสียงอัตโนมัติ
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        รีเซ็ตโปรไฟล์
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        บันทึกโปรไฟล์
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        มิเตอร์วัดระดับสูงสุด
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        ฟังเสียงของคุณ
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        การตั้งค่าเสียงส่วนบุคคล
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        โปรดอ่านข้อความต่อไปนี้ออกเสียง เราจะปรับปรุงเอฟเฟกต์การปรับเสียงให้เหมาะสมตามลักษณะเสียงของคุณ
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        ลองจินตนาการว่าคุณยืนอยู่บนยอดเขา มีทิวทัศน์กว้างใหญ่สุดลูกหูลูกตาเบื้องล่าง เสียงสะท้อนของคุณเดินทางไปทั่วบริเวณที่เปิดโล่ง สอดคล้องกับลมภูเขา
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        เริ่ม
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        ออก
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        กำลังประมวลผล...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        คู่มือ
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        ถัดไป
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        ก่อนหน้า
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        เสร็จสิ้น
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        กำลังเล่น...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        โปรดตรวจสอบให้แน่ใจว่าหูฟังได้รับการสวมใส่ถูกต้องและเปิดฟังก์ชัน "การติดตามศีรษะ" แล้ว
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        โปรดมองตรงไปที่หน้าจอและพยายามให้ศีรษะอยู่นิ่งที่สุดเท่าที่จะทำได้ คลิกปุ่ม "รีเซ็ต" ในหน้าการตั้งค่าเพื่อรีเซ็ตเสียงรอบทิศทางของหูฟังกลับไปยังตำแหน่งที่ถูกต้อง
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        ตอนนี้ลองหมุนศีรษะของคุณและสังเกตว่าแบบจำลองหูฟังที่แสดงทางซ้ายหมุนตามการเคลื่อนไหวของศีรษะของคุณหรือไม่
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        โปรดปิดแหล่งกำเนิดเสียงทั้งหมดที่กำลังเล่นอยู่ จากนั้นเราจะเล่นเสียงทดสอบ เมื่อพร้อมแล้ว โปรดคลิกถัดไป
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        ตอนนี้คุณควรจะได้ยินเสียงที่กำลังเล่นอยู่ เราขอแนะนำให้คุณหลับตาและพยายามสัมผัสถึงการเปลี่ยนแปลงทิศทางของเสียงเมื่อคุณหันศีรษะจากด้านหนึ่งไปอีกด้านหนึ่ง
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        หากทุกอย่างเป็นไปด้วยดี ขอแสดงความยินดี! คุณได้ตั้งค่าเอฟเฟกต์เสียง 3D Panorama Spatial Sound Effect สำเร็จแล้ว ขอให้เพลิดเพลินกับประสบการณ์
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        LED
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        เปิดตลอด
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        กะพริบ
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        หายใจ
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        จังหวะการเต้นของหัวใจ
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

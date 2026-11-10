@@ -1,0 +1,1090 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        Закрыть
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        Включить
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        Отключить
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        Сброс
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        Слева
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        Справа
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        Закрыть окно приложения
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        Свернуть окно приложения
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        Информация
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        Добавить устройство
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        Больше не показывать это руководство
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        Открыть
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        Выход
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        Настройки устройства и информация
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        Настройка устройства по умолчанию
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        Устройство по умолчанию
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        Установить как устройство по умолчанию
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        Устройство связи по умолчанию
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        Установить как устройство связи по умолчанию
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        Формат устройства
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        Формат
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        Информация об устройстве
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        Имя устройства :
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        Версия прошивки :
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        Версия драйвера :
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        Имя аудиокодека :
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        Управление звуковыми эффектами
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        Список аудиоустройств
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        Устройство воспроизведения
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        Устройство записи
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        Информация
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        Ссылка на веб-сайт
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        Применить
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        Применить изменение языка
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        Версия приложения
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        Версия DLL SDK
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        Обновление прошивки
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        Обновить прошивку
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        Обновление прошивки
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        Информация о прошивке устройства
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        Имя устройства
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        Версия
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        Информация о выбранной прошивке
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        Имя файла
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        Тип
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        Обновить
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        Закрыть
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        Предупреждение
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. Пожалуйста, закройте другие программы
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. Не закрывайте эту программу во время обновления
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. Не отключайте устройство во время обновления
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. Не выключайте питание наушников во время обновления
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        Идет обновление, пожалуйста, подождите
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        Неизвестно
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        Подготовка...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        Обновление...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        Перезагрузка...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        Завершение...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        Завершено
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        EM
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        EQ
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        SMX
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        COMP.
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        NG
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        AB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        DB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        ECHO
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        MV
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        KS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        VF
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        SVN
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        VC
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        3D Audio
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI MV
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        MV II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        REC Effect
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        Шумоподавление
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        Шумоподавление HD
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        Шумоподавление ИИ
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        Эффекты окружения
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        Эквалайзер
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        Эквалайзер микрофона
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        7.1 Виртуальный переключатель динамиков
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        Компрессор
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        Шумоподавитель
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFX Эхо
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFX Смещение тональности
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFX Затухание вокала
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Xear Surround Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3D Панорамное аудио
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AI Magic Voice
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        Magic Voice II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        Эффект записи
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        Speaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        Microphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        Line
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        SPDIF
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        Aux
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CDPlayer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        StereoMix
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        SPDIFInRCA
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        SpeakerQuarter
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        Headset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        DesktopSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        FrontMic
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        FrontHeadphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        SpeakerPhone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        MicrophoneArray
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        CommunicationSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        Unknown
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        Удалить это устройство с панели
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        Настройка аудиоустройства
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        Сеанс устройства
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        Нажмите, чтобы изменить уровень
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        Нажмите, чтобы изменить на дБ
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        Громкость
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        Пиковый индикатор
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        Главный переключатель эффектов
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        Настройка эффектов
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        Нет эффекта
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        Баланс
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        Включить звук
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        Выключить звук
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        Светодиод
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        Устройство отключено
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        Добавить на панель
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        Удалить с панели
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        Шумоподавление ИИ
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        Шумоподавление ИИ
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        Уровень
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        Низкий
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        Средний
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        Высокий
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        Уровень шумоподавления
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        Эквалайзер
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        По умолчанию
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        Бас
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        Джаз
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        Танцевальная
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        Живая музыка
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        Рэп
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        Классика
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        Софт-рок
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        Металл
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        Высокие частоты
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        Рок
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        Вокал
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        Предустановленный профиль
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        Сохранить в профиль
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        Введите имя профиля
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        Значение усиления
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        Эквалайзер микрофона
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        Сброс
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        Эффекты окружения
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        Окружение
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        Нет
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        Общий
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        Мягкая камера
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        Комната
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        Ванная комната
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        Гостиная
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        Каменная комната
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        Зрительный зал
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        Концертный зал
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        Пещера
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        Арена
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        Ангар
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        Ковровый коридор
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        Коридор
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        Каменный коридор
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        Аллея
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        Лес
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        Город
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        Горы
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        Карьер
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        Равнина
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        Парковка
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        Канализационная труба
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        Под водой
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        Одурманенный
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        Головокружение
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        Психотический
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        Караоке
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFX Эхо
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        Уровень эха
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFX Смещение тональности
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        Повышение тона
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        Понижение тона
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFX Затухание вокала
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        Без голоса
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        Голос
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xear Surround Headphone
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        Режим эффекта
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        Режим объемного звука
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        Режим Музыка / Игры
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        Режим Фильм
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        Размер комнаты
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        Размер комнаты объемного звука
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        Маленькая комната
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        Средняя комната
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        Большая комната
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        Тест левого переднего
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        Тест правого переднего
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        Тест центрального
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        Тест сабвуфера
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        Тест левого бокового
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        Тест правого бокового
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        Тест левого заднего
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        Тест правого заднего
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xear Audio Brilliant
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        Уровень яркости
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xear Dynamic Bass
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        Уровень баса
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        Частота среза
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xear Smart Volume
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        Музыкальный режим
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        Высокий динамический диапазон
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        Речевой режим
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        Низкий динамический диапазон
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        Музыкальный режим
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        Речевой режим
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xear Voice Clarity
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        Уровень чистоты голоса
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        Шумоподавление для связи
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xear Magic Voice
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        Режим
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        Монстр
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        Мультфильм
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        Мужчина
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        Женщина
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        7.1 Виртуальный переключатель динамиков
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        По часовой стрелке
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        Против часовой стрелки
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        Ручное вращение
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        Ручное смещение
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        Передний левый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        Передний правый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        Боковой левый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        Боковой правый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        Задний левый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        Задний правый
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        Центр
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        Низкочастотный динамик
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        Голова
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        Уменьшить уровень
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        Увеличить уровень
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xear Surround Max
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        Шумоподавление
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        Уровень
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3D Панорамное аудио
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        Отслеживание головы
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        3D Реверберация
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        Перецентрировать
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        Включить отслеживание головы
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        Включить реверберацию
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        Перецентрировать положение головы
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        Руководство по отслеживанию головы
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        Предупреждение
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        Наушники отключены
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        Эффект записи
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        Шумоподавление ИИ
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        Компрессор
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        Запись на большом расстоянии
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        Оставить только голос
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        Сделать ровный уровень громкости
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        Максимальное расстояние захвата
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        Макс.
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        По умолчанию
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        Низкий
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        Magic Voice II
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        Мужчина (ИИ)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        Женщина (ИИ)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        Мальчик (ИИ)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        Девочка (ИИ)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        Низкий
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        Высокий
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        Регулировка тона
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        Монитор голоса
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        Автоматическая оценка тона
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        Сбросить профиль
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        Сохранить профиль
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        Пиковый индикатор
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        Слушать свой голос
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        Персонализированная настройка голоса
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        Пожалуйста, прочитайте следующий текст вслух.
+        Мы оптимизируем эффекты модуляции голоса на основе ваших вокальных
+        характеристик.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        Представьте, что вы стоите на вершине горы, обозревая огромные пейзажи.
+        Эхо вашего голоса разносится по открытому пространству, гармонируя с горным бризом.
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        Начать
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        Выход
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        Обработка...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        Руководство
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        Далее
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        Пред.
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        Завершить
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        Воспроизведение...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        Пожалуйста, убедитесь, что наушники надеты правильно, и включите функцию «Отслеживание головы».
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        Пожалуйста, смотрите прямо на экран, старайтесь держать голову неподвижно и нажмите кнопку «Сброс» на странице настроек, чтобы звуковое поле наушников вернулось в правильное положение.
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        Теперь попробуйте повернуть голову и посмотрите, поворачивается ли модель наушников слева вместе с движениями вашей головы.
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        Пожалуйста, сначала закройте все воспроизводимые аудиоисточники, затем мы воспроизведем тестовый аудиоисточник. Когда будете готовы, нажмите «Далее».
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        Теперь вы должны слышать воспроизводимый аудиоисточник. Мы рекомендуем закрыть глаза и попробовать повернуть голову влево и вправо, чтобы почувствовать изменение направления звука.
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        Если все вышеперечисленное готово, поздравляем, вы настроили эффект 3D панорамного пространственного звука. Наслаждайтесь!
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        Светодиод
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        Постоянно
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        Мигание
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        Дыхание
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        Сердцебиение
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

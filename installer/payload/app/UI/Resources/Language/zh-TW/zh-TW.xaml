@@ -1,0 +1,1088 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        關閉
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        啟動
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        關閉
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        重置
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        左
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        右
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        關閉視窗
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        最小化視窗
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        資訊
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        新增裝置
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        下次不再顯示此導覽
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        開啟
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        關閉
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        裝置設定與資訊
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        預設裝置設定
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        預設裝置
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        設定為預設裝置
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        預設通訊裝置
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        設定為預設通訊裝置
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        裝置格式
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        格式
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        裝置資訊
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        裝置名稱 :
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        韌體版本 :
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        驅動程式版本 :
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        音訊轉碼器名稱 :
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        音訊效果控制
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        音訊裝置列表
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        播放裝置
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        錄音裝置
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        資訊
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        連結至網站
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        套用
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        套用語言變更
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        UI應用程式版本
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        SDK DLL 版本
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        更新韌體
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        更新韌體
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        更新韌體
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        裝置韌體資訊
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        裝置名稱
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        版本
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        已選取韌體檔案資訊
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        檔案名稱
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        類型
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        升級
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        關閉
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        警告
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. 請關閉其他程式
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. 升級時請勿關閉本程式
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. 升級時請勿拔除裝置
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. 升級時請勿關閉耳機端電源
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        升級中，請耐心等候
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        未知
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        準備中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        更新中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        重新啟動中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        正在完成...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        完成
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        麥克風降噪
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD 降噪
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI 降噪
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        環境音效
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        等化器
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        環繞擴增
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        Compressor
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        Noise Gate
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        音頻明亮化
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        動態低頻
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        麥克風回音
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        魔幻音效
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        音階升降
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        原音消除
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        智能音量
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1環繞
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        人聲清晰化
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        頭部追蹤
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI 魔幻音效
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        魔幻音效 II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        錄音特效
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        麥克風降噪
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        HD 降噪
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        AI 降噪
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        環境音效
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        等化器
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        麥克風等化器
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        7.1 Virtual Speaker Shifter
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xear 環繞擴增
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        Compressor
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        Noise Gate
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xear 音頻明亮化
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xear 動態低頻
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFX 麥克風迴音
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xear 魔幻音效
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFX 音階升降
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFX 原音消除
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xear 智能音量
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Xear 7.1環繞
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xear 人聲清晰化
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3D全景空間音頻
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AI 魔幻音效
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        魔幻音效 II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        麥克風錄音特效
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        喇叭
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        麥克風
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        線路輸入
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        數位輸出
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        線路輸出
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CD播放器
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        耳機
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        立體聲混音
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        數位輸入
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        喇叭 (Quarter)
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        耳機麥克風
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        桌面喇叭
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        前置麥克風
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        前置耳機
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        揚聲器電話
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        麥克風陣列
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        通訊喇叭
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        未知的裝置
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        從面板上移除此裝置
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        音訊裝置設定
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        使用狀態
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        點擊切換百分比
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        點擊切換分貝
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        音量
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        音量計
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        主音效開關
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        音效設定
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        無音效
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        平衡
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        取消靜音
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        靜音
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        LED
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        裝置斷線
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        新增至面板
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        從面板移除
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        AI 降噪
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        AI 降噪
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        降噪等級
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        低
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        中
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        高
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        降噪等級
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        等化器
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        預設
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        低音
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        爵士
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        舞曲
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        現場
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        饒舌樂
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        古典樂
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        抒情搖滾
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        重金屬
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        高音
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        搖滾
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        聲樂
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        預設設定檔
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        儲存設定檔
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        輸入設定檔名稱
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        Gain 值
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        麥克風等化器
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        重置
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        環境音效
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        環境
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        無環境
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        一般環境
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        吸音室
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        臥房
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        浴室
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        客廳
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        石室
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        觀眾席
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        音樂廳
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        洞穴
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        競技場
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        飛機棚
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        地毯走廊
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        走廊
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        石頭回廊
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        小巷
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        森林
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        城市
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        山中
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        採石場
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        平原
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        停車場
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        下水道
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        水底
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        迷幻
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        暈眩
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        瘋狂
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        KTV
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFX 麥克風迴音
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        迴音強度
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFX 音階升降
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        升音
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        降音
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFX 原音消除
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        無人聲
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        人聲
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xear 7.1環繞
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        環繞模式
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        環繞模式
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        音樂 / 遊戲模式
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        電影模式
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        房間大小
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        環繞音場房間大小
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        小房間
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        中房間
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        大房間
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        測試左前
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        測試右前
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        測試中央
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        測試低音
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        測試左側
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        測試右側
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        測試左後
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        測試右後
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xear 音頻明亮化
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        明亮等級
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xear 動態低頻
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        低頻等級
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        低音頻段截取
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xear 智能音量
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        音樂模式
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        高動態
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        演講模式
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        低動態
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        音樂模式
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        演講模式
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xear 人聲清晰化
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        清晰化等級
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        通話噪音抑制
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xear 魔幻音效
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        模式
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        怪獸
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        卡通
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        男生
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        女生
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        7.1 Virtual Speaker Shifter
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        順時鐘環繞
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        逆時鐘環繞
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        手動旋轉
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        手動平移
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        前左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        前右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        側左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        側右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        後左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        後右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        中央
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        重低音
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        聆聽者
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        音量減弱
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        音量增強
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xear 環繞擴增
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        麥克風降噪
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        強度
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3D全景空間音頻
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        頭部追蹤
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        3D空間音場
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        置中頭部
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        開啟頭部追蹤
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        開啟3D空間音場
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        置中頭部位置
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        設定教學
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        警告
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        耳機未連線
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        麥克風錄音特效
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        AI 降噪
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        壓縮器
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        長距離錄音
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        僅保留語音
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        使音量均匀
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        最大錄音距離
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        最大
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        預設
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        最小
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        魔幻音效 II
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        男人 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        女人 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        男孩 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        女孩 (AI)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        低
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        高
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        音調調整
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        語音監聽
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        自動音調估計
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        重置設定檔
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        儲存設定檔
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        音量計
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        監聽你的聲音
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        個性化語音設定
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        請大聲朗讀下面的文字。我們將優化
+        根據您的聲音進行語音調製效果特徵。
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        太平洋文化基金會，六月一日起將在台北舉辦巴黎文化藝術家聯展。
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        開始
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        離開
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        處理中...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        導覽
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        Next
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        Prev
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        Finish
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        播放中...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        请确认耳机正确配戴，并将"头部追踪"功能打开。
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        请正视屏幕，尽量保持头部不动，用滑鼠点一下设置页面内"復位"的按钮让耳机音场重新回到正确的位置。
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        现在试着转动头部，并观察左方耳机示意模型是否跟着您的头部动作转动。
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        请先将所有正在播放中的音源关闭，接下来我们会播放一段测试音源，准备好后请按下一步。
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        您现在应该可以听见正在拨放的音源，我们建议您可以闭上眼睛试着左右转动头部，感觉声音方向的变化。
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        如果以上都就绪，恭喜您已经设置好3D全景空间音频的效果，尽情体验吧。
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        LED
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        長亮
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        循環變色
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        呼吸
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        心跳
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

@@ -1,0 +1,94 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Color-->
+    <Color x:Key="Color_1">#FFFE0303</Color>
+    <Color x:Key="Color_2">#FFFFA003</Color>
+    <Color x:Key="Color_3">#FFFEF605</Color>
+    <Color x:Key="Color_4">#FF03FF04</Color>
+    <Color x:Key="Color_5">#FF04C2FF</Color>
+    <Color x:Key="Color_6">#FF0466D9</Color>
+    <Color x:Key="Color_7">#FFFF3BE8</Color>
+    <Color x:Key="Color_1_Disable">#64FE0303</Color>
+    <Color x:Key="Color_2_Disable">#64FFA003</Color>
+    <Color x:Key="Color_3_Disable">#64FEF605</Color>
+    <Color x:Key="Color_4_Disable">#6403FF04</Color>
+    <Color x:Key="Color_5_Disable">#6404C2FF</Color>
+    <Color x:Key="Color_6_Disable">#640466D9</Color>
+    <Color x:Key="Color_7_Disable">#64FF3BE8</Color>
+    <Color x:Key="Color_Stroke">#FF909090</Color>
+    <!--Color-->
+
+    <!--Width: 30 Height: 30-->
+    <!--Img Crosshair-->
+    <BitmapImage x:Key="Img_Crosshair" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/LEDControl/Img_Crosshair.png"/>
+    <!--Img Crosshair-->
+
+    <!--Width: 30 Height: 10-->
+    <!--Img ValueCursor-->
+    <BitmapImage x:Key="Img_ValueCursor" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/LEDControl/Img_ValueCursor.png"/>
+    <!--Img ValueCursor-->
+
+    <!--Button Color 1-->
+    <Style x:Key="Button_Color_1" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 1-->
+
+    <!--Button Color 2-->
+    <Style x:Key="Button_Color_2" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 2-->
+
+    <!--Button Color 3-->
+    <Style x:Key="Button_Color_3" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 3-->
+
+    <!--Button Color 4-->
+    <Style x:Key="Button_Color_4" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 4-->
+
+    <!--Button Color 5-->
+    <Style x:Key="Button_Color_5" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 5-->
+
+    <!--Button Color 6-->
+    <Style x:Key="Button_Color_6" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 6-->
+
+    <!--Button Color 7-->
+    <Style x:Key="Button_Color_7" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="35"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Color 7-->
+
+    <!--Slider Color-->
+    <Style x:Key="Slider_Color" TargetType="{x:Type Slider}">
+        <Setter Property="Width" Value="130"/>
+    </Style>
+    <!--Slider Color-->
+
+</ResourceDictionary>

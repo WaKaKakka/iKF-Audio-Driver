@@ -1,0 +1,223 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--MaxWidth: 55 MaxHeight: 55-->
+    <!--Img Clockwise-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Clockwise_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Clockwise_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Clockwise_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Clockwise_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Clockwise_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Clockwise_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Clockwise_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Clockwise_di.png"/>
+    <!--Img Clockwise-->
+    <!--RadioButton Clockwise-->
+    <Style x:Key="RadioButton_Clockwise" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton Clockwise-->
+
+    <!--MaxWidth: 55 MaxHeight: 55-->
+    <!--Img CounterClockwise-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_CounterClockwise_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_CounterClockwise_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_CounterClockwise_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_CounterClockwise_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_CounterClockwise_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_CounterClockwise_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_CounterClockwise_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_CounterClockwise_di.png"/>
+    <!--Img CounterClockwise-->
+    <!--RadioButton CounterClockwise-->
+    <Style x:Key="RadioButton_CounterClockwise" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton CounterClockwise-->
+
+    <!--MaxWidth: 55 MaxHeight: 55-->
+    <!--Img ManualClockwise-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ManualClockwise_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_ManualClockwise_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ManualClockwise_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_ManualClockwise_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ManualClockwise_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_ManualClockwise_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ManualClockwise_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_ManualClockwise_di.png"/>
+    <!--Img ManualClockwise-->
+    <!--RadioButton ManualClockwise-->
+    <Style x:Key="RadioButton_ManualClockwise" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ManualClockwise-->
+
+    <!--MaxWidth: 55 MaxHeight: 55-->
+    <!--Img Manual-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Manual_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Manual_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Manual_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Manual_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Manual_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Manual_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Manual_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/RadioButton_Manual_di.png"/>
+    <!--Img Manual-->
+    <!--RadioButton Manual-->
+    <Style x:Key="RadioButton_Manual" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton Manual-->
+
+    <!--MaxWidth: 55 MaxHeight: 55-->
+    <!--Img Reset-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Reset_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_Reset_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Reset_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_Reset_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Reset_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_Reset_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Reset_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_Reset_di.png"/>
+    <!--Img Reset-->
+    <!--Button Reset-->
+    <Style x:Key="Button_Reset" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="45"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Reset-->
+
+    <!--Img L-->
+    <BitmapImage x:Key="Img_L" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_L.png"/>
+    <!--Img L-->
+    <!--Button Speaker L-->
+    <Style x:Key="Button_Speaker_L" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker L-->
+
+    <!--Img R-->
+    <BitmapImage x:Key="Img_R" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_R.png"/>
+    <!--Img R-->
+    <!--Button Speaker R-->
+    <Style x:Key="Button_Speaker_R" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker R-->
+
+    <!--Img C-->
+    <BitmapImage x:Key="Img_C" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_C.png"/>
+    <!--Img C-->
+    <!--Button Speaker C-->
+    <Style x:Key="Button_Speaker_C" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker C-->
+
+    <!--Img W-->
+    <BitmapImage x:Key="Img_W" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_W.png"/>
+    <!--Img W-->
+    <!--Button Speaker W-->
+    <Style x:Key="Button_Speaker_W" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker W-->
+
+    <!--Img LS-->
+    <BitmapImage x:Key="Img_LS" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_LS.png"/>
+    <!--Img LS-->
+    <!--Button Speaker LS-->
+    <Style x:Key="Button_Speaker_LS" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker LS-->
+
+    <!--Img RS-->
+    <BitmapImage x:Key="Img_RS" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_RS.png"/>
+    <!--Img RS-->
+    <!--Button Speaker RS-->
+    <Style x:Key="Button_Speaker_RS" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker RS-->
+
+    <!--Img LB-->
+    <BitmapImage x:Key="Img_LB" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_LB.png"/>
+    <!--Img LB-->
+    <!--Button Speaker LB-->
+    <Style x:Key="Button_Speaker_LB" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker LB-->
+
+    <!--Img RB-->
+    <BitmapImage x:Key="Img_RB" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Img_RB.png"/>
+    <!--Img RB-->
+    <!--Button Speaker RB-->
+    <Style x:Key="Button_Speaker_RB" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Speaker RB-->
+
+    <!--Img DecreaseGain-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_DecreaseGain_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_DecreaseGain_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_DecreaseGain_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_DecreaseGain_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_DecreaseGain_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_DecreaseGain_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_DecreaseGain_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_DecreaseGain_di.png"/>
+    <!--Img DecreaseGain-->
+    <!--Button DecreaseGain-->
+    <Style x:Key="Button_DecreaseGain" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="20"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button DecreaseGain-->
+
+    <!--Img IncreaseGain-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_IncreaseGain_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_IncreaseGain_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_IncreaseGain_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_IncreaseGain_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_IncreaseGain_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_IncreaseGain_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_IncreaseGain_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/VirtualSpeakerShifter/Button_IncreaseGain_di.png"/>
+    <!--Img IncreaseGain-->
+    <!--Button IncreaseGain-->
+    <Style x:Key="Button_IncreaseGain" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="20"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button IncreaseGain-->
+
+</ResourceDictionary>

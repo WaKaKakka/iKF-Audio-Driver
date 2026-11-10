@@ -1,0 +1,265 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!--Img ModeManAi-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeManAi_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_ManAi_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeManAi_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_ManAi_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeManAi_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_ManAi_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeManAi_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_ManAi_di.png"/>
+    <!--Img ModeManAi-->
+    <!--RadioButton ModeManAi-->
+    <Style x:Key="RadioButton_ModeManAi" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeManAi-->
+
+    <!--Img ModeWomanAi-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeWomanAi_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_WomanAi_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeWomanAi_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_WomanAi_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeWomanAi_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_WomanAi_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeWomanAi_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_WomanAi_di.png"/>
+    <!--Img ModeWomanAi-->
+    <!--RadioButton ModeWomanAi-->
+    <Style x:Key="RadioButton_ModeWomanAi" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeWomanAi-->
+
+    <!--Img ModeBoyAi-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeBoyAi_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_BoyAi_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeBoyAi_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_BoyAi_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeBoyAi_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_BoyAi_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeBoyAi_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_BoyAi_di.png"/>
+    <!--Img ModeBoyAi-->
+    <!--RadioButton ModeBoyAi-->
+    <Style x:Key="RadioButton_ModeBoyAi" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeBoyAi-->
+
+    <!--Img ModeGirlAi-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeGirlAi_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_GirlAi_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeGirlAi_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_GirlAi_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeGirlAi_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_GirlAi_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeGirlAi_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_GirlAi_di.png"/>
+    <!--Img ModeGirlAi-->
+    <!--RadioButton ModeGirlAi-->
+    <Style x:Key="RadioButton_ModeGirlAi" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeGirlAi-->
+
+    <!--Img ModeMonster-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeMonster_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Monster_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeMonster_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Monster_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeMonster_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Monster_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeMonster_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Monster_di.png"/>
+    <!--Img ModeMonster-->
+    <!--RadioButton ModeMonster-->
+    <Style x:Key="RadioButton_ModeMonster" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeMonster-->
+
+    <!--Img ModeCartoon-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeCartoon_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Cartoon_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeCartoon_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Cartoon_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeCartoon_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Cartoon_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeCartoon_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Cartoon_di.png"/>
+    <!--Img ModeCartoon-->
+    <!--RadioButton ModeCartoon-->
+    <Style x:Key="RadioButton_ModeCartoon" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeCartoon-->
+
+    <!--Img ModeMan-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeMan_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Man_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeMan_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Man_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeMan_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Man_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeMan_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Man_di.png"/>
+    <!--Img ModeMan-->
+    <!--RadioButton ModeMan-->
+    <Style x:Key="RadioButton_ModeMan" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeMan-->
+
+    <!--Img ModeWoman-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_ModeWoman_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Woman_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_ModeWoman_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Woman_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_ModeWoman_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Woman_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_ModeWoman_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/RadioButtons/RadioButton_Woman_di.png"/>
+    <!--Img ModeWoman-->
+    <!--RadioButton ModeWoman-->
+    <Style x:Key="RadioButton_ModeWoman" TargetType="{x:Type RadioButton}">
+        <Setter Property="Width" Value="110"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--RadioButton ModeWoman-->
+
+    <!--Img Balance Thumb-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Thumb_Balance_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Thumb_Balance_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Thumb_Balance_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Thumb_Balance_mo.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Thumb_Balance_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Thumb_Balance_di.png"/>
+    <!--Img Balance Thumb-->
+    <!--MaxWidth: 16 MaxHeight: 16-->
+    <!--Thumb Balance-->
+    <Style x:Key="Thumb_Balance" TargetType="{x:Type Thumb}">
+        <Setter Property="Width" Value="16"/>
+        <Setter Property="Height" Value="16"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Thumb Balance-->
+
+    <!--Slider Balance-->
+    <Style x:Key="Slider_Balance" TargetType="{x:Type Slider}">
+        <Setter Property="Width" Value="320"/>
+        <Setter Property="Height" Value="16"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Slider Balance-->
+
+    <!--Img Button ProfileSave-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Button_ProfileSave_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileSave_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Button_ProfileSave_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileSave_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Button_ProfileSave_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileSave_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Button_ProfileSave_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileSave_di.png"/>
+    <!--Img Button ProfileSave-->
+    <!--Button ProfileSave-->
+    <Style x:Key="Button_ProfileSave" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button ProfileSave-->
+
+    <!--Img Button ProfileReset-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Button_ProfileReset_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileReset_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Button_ProfileReset_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileReset_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Button_ProfileReset_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileReset_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Button_ProfileReset_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_ProfileReset_di.png"/>
+    <!--Img Button ProfileReset-->
+    <!--Button ProfileReset-->
+    <Style x:Key="Button_ProfileReset" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button ProfileReset-->
+
+    <!--Img Button AutoPitchEstimation-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Button_AutoPitchEstimation_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_AutoPitchEstimation_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Button_AutoPitchEstimation_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_AutoPitchEstimation_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_Button_AutoPitchEstimation_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_AutoPitchEstimation_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_Button_AutoPitchEstimation_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/Button_AutoPitchEstimation_di.png"/>
+    <!--Img Button AutoPitchEstimation-->
+    <!--Button AutoPitchEstimation-->
+    <Style x:Key="Button_AutoPitchEstimation" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button AutoPitchEstimation-->
+
+    <!--Img CheckBox Listen-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_CheckBox_Listen_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/CheckBox_Listen_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_CheckBox_Listen_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/CheckBox_Listen_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_CheckBox_Listen_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/CheckBox_Listen_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_CheckBox_Listen_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Buttons/CheckBox_Listen_di.png"/>
+    <!--Img CheckBox Listen-->
+    <!--CheckBox Listen-->
+    <Style x:Key="CheckBox_Listen" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox Listen-->
+
+    <!--MaxWidth: 50 MaxHeight: 200-->
+    <!--Img Volume Tick-->
+    <BitmapImage x:Key="Img_Volume_Tick" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Img_Volume_Tick.png"/>
+    <!--Img Volume Tick-->
+
+    <!--MaxWidth: 15 MaxHeight: 190-->
+    <!--Img VolumePeak Bg-->
+    <BitmapImage x:Key="Img_VolumePeak_Bg" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Img_VolumePeak_Bg.png"/>
+    <!--Img VolumePeak Bg-->
+    <!--Img VolumePeak Full-->
+    <BitmapImage x:Key="Img_VolumePeak_Full" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/MagicVoice2/Img_VolumePeak_Full.png"/>
+    <!--Img VolumePeak Full-->
+    <!--Slider PeakMeter-->
+    <Style x:Key="Slider_PeakMeter" TargetType="{x:Type Slider}">
+        <Setter Property="Width" Value="15"/>
+        <Setter Property="Height" Value="190"/>
+    </Style>
+    <!--Slider PeakMeter-->
+
+</ResourceDictionary>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.ControlWindow.Content.EffectControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:XearONE.UI.ControlWindow.Content" xmlns:sva="clr-namespace:XearONE.UI.ControlGraphicEffect" Width="830" Height="560" Loaded="EffectControl_Loaded">
+  <Grid Margin="10,10,10,10">
+    <sva:ScrollViewerAnimation Padding="5,5,5,5">
+      <FrameworkElement.Resources>
+        <ResourceDictionary>
+          <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}" BasedOn="{StaticResource ScrollBar_V_Style}" />
+        </ResourceDictionary>
+      </FrameworkElement.Resources>
+      <StackPanel Name="EffectStackPanel" />
+    </sva:ScrollViewerAnimation>
+  </Grid>
+</UserControl>

@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="XearONE.UI.EffectControls.MagicVoice2.MagicVoice2Control" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:XearONE.UI.EffectControls" xmlns:MagicVoice2="clr-namespace:XearONE.UI.EffectControls.MagicVoice2" MinWidth="780" MinHeight="400" MaxWidth="780" MaxHeight="400" Loaded="MagicVoice2_Loaded" Unloaded="MagicVoice2_Unloaded">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="\Resources\Skin\Styles\SoundEffects\MagicVoice2ControlStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+      <ControlTemplate x:Key="RadioButton_ModeManAi_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeManAi_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeManAi_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeManAi_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeManAi_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeManAi_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeManAi}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeManAi_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_ManAi}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeWomanAi_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeWomanAi_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWomanAi_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWomanAi_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWomanAi_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeWomanAi_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeWomanAi}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeWomanAi_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_WomanAi}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeBoyAi_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeBoyAi_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeBoyAi_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeBoyAi_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeBoyAi_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeBoyAi_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeBoyAi}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeBoyAi_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_BoyAi}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeGirlAi_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeGirlAi_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeGirlAi_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeGirlAi_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeGirlAi_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeGirlAi_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeGirlAi}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeGirlAi_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_GirlAi}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeMonster_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeMonster_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMonster_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMonster_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMonster_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeMonster_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeMonster}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeMonster_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_Monster}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeCartoon_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeCartoon_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeCartoon_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeCartoon_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeCartoon_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeCartoon_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeCartoon}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeCartoon_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_Cartoon}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeMan_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeMan_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMan_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMan_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeMan_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeMan_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeMan}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeMan_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_Man}" />
+      </Style>
+      <ControlTemplate x:Key="RadioButton_ModeWoman_Template" TargetType="{x:Type RadioButton}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_ModeWoman_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWoman_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWoman_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_ModeWoman_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="RadioButton_ModeWoman_Style" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource RadioButton_ModeWoman}">
+        <Setter Property="Template" Value="{StaticResource RadioButton_ModeWoman_Template}" />
+        <Setter Property="RadioButton.GroupName" Value="MagicVoice2_Mode" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource ToolTip_RadioButton_Woman}" />
+      </Style>
+      <Style x:Key="RepeatButton_Slider_Balance_Style" TargetType="{x:Type RepeatButton}">
+        <Setter Property="UIElement.SnapsToDevicePixels" Value="True" />
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type RepeatButton}">
+              <Border Background="#00FFFFFF" Width="123" Height="8" />
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <Style x:Key="Thumb_Balance_Style" TargetType="{x:Type Thumb}" BasedOn="{StaticResource Thumb_Balance}">
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type Thumb}">
+              <Grid>
+                <Image Name="Img" Source="{StaticResource Img_Thumb_Balance_no}" />
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+              </Grid>
+              <ControlTemplate.Triggers>
+                <Trigger Property="UIElement.IsMouseOver" Value="True">
+                  <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Thumb_Balance_mo}" />
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                  <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Thumb_Balance_di}" />
+                </Trigger>
+              </ControlTemplate.Triggers>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <Style x:Key="Slider_Balance_Style" TargetType="{x:Type Slider}" BasedOn="{StaticResource Slider_Balance}">
+        <Setter Property="Background" Value="#00000000" />
+        <Setter Property="FrameworkElement.Cursor" Value="Hand" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type Slider}">
+              <Grid>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto" />
+                  <RowDefinition Height="Auto" MinHeight="{TemplateBinding FrameworkElement.MinHeight}" />
+                  <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Border Name="TrackBackground" CornerRadius="4" Height="8" Grid.Row="1" BorderThickness="0.5">
+                  <Border.BorderBrush>
+                    <SolidColorBrush Color="#474F60" />
+                  </Border.BorderBrush>
+                  <Border.Background>
+                    <SolidColorBrush Color="{StaticResource Color_SliderBg}" />
+                  </Border.Background>
+                </Border>
+                <Rectangle Grid.Row="1" Width="1.5" Height="14" StrokeThickness="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                  <Shape.Fill>
+                    <SolidColorBrush Color="#5C6577" />
+                  </Shape.Fill>
+                </Rectangle>
+                <Track Name="PART_Track" Grid.Row="1" IsDirectionReversed="False" Minimum="{TemplateBinding RangeBase.Minimum}" Maximum="{TemplateBinding RangeBase.Maximum}" Value="{TemplateBinding RangeBase.Value}">
+                  <Track.DecreaseRepeatButton>
+                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}" Background="#00000000" BorderBrush="#00000000" Foreground="#00000000" Style="{StaticResource RepeatButton_Slider_Balance_Style}" />
+                  </Track.DecreaseRepeatButton>
+                  <Track.IncreaseRepeatButton>
+                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}" Background="#00000000" BorderBrush="#00000000" Foreground="#00000000" Style="{StaticResource RepeatButton_Slider_Balance_Style}" />
+                  </Track.IncreaseRepeatButton>
+                  <Track.Thumb>
+                    <Thumb Style="{StaticResource Thumb_Balance_Style}" />
+                  </Track.Thumb>
+                </Track>
+              </Grid>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <ControlTemplate x:Key="Button_ProfileSave_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_Button_ProfileSave_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileSave_mo}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileSave_di}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileSave_se}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_ProfileSave_Style" TargetType="{x:Type Button}" BasedOn="{StaticResource Button_ProfileSave}">
+        <Setter Property="Template" Value="{StaticResource Button_ProfileSave_Template}" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource MagicVoiceII_ToolTip_SaveProfile}" />
+      </Style>
+      <ControlTemplate x:Key="Button_ProfileReset_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_Button_ProfileReset_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileReset_mo}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileReset_di}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_ProfileReset_se}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_ProfileReset_Style" TargetType="{x:Type Button}" BasedOn="{StaticResource Button_ProfileReset}">
+        <Setter Property="Template" Value="{StaticResource Button_ProfileReset_Template}" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource MagicVoiceII_ToolTip_ResetProfile}" />
+      </Style>
+      <ControlTemplate x:Key="Button_AutoPitchEstimation_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_Button_AutoPitchEstimation_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_AutoPitchEstimation_mo}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_AutoPitchEstimation_di}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_Button_AutoPitchEstimation_se}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_AutoPitchEstimation_Style" TargetType="{x:Type Button}" BasedOn="{StaticResource Button_AutoPitchEstimation}">
+        <Setter Property="Template" Value="{StaticResource Button_AutoPitchEstimation_Template}" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource MagicVoiceII_ToolTip_AutoPitchEstimation}" />
+      </Style>
+      <ControlTemplate x:Key="CheckBox_Listen_Template" TargetType="{x:Type CheckBox}">
+        <Grid>
+          <Image Name="Img" Source="{StaticResource Img_CheckBox_Listen_no}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_CheckBox_Listen_mo}" />
+          </Trigger>
+          <Trigger Property="ToggleButton.IsChecked" Value="True">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_CheckBox_Listen_se}" />
+          </Trigger>
+          <Trigger Property="UIElement.IsEnabled" Value="False">
+            <Setter TargetName="Img" Property="Image.Source" Value="{StaticResource Img_CheckBox_Listen_di}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="CheckBox_Listen_Style" TargetType="{x:Type CheckBox}" BasedOn="{StaticResource CheckBox_Listen}">
+        <Setter Property="Template" Value="{StaticResource CheckBox_Listen_Template}" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource MagicVoiceII_ToolTip_ListenToYourVoice}" />
+      </Style>
+      <Style x:Key="RepeatButton_Slider_PeakMeter_Top_Style" TargetType="{x:Type RepeatButton}">
+        <Setter Property="UIElement.SnapsToDevicePixels" Value="True" />
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type RepeatButton}">
+              <Grid>
+                <Image Stretch="Fill" Source="{StaticResource Img_VolumePeak_Bg}" />
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+              </Grid>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <Style x:Key="RepeatButton_Slider_PeakMeter_Bottom_Style" TargetType="{x:Type RepeatButton}">
+        <Setter Property="UIElement.SnapsToDevicePixels" Value="True" />
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type RepeatButton}">
+              <Grid />
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <Style x:Key="Thumb_PeakMeter_Style" TargetType="{x:Type Thumb}">
+        <Setter Property="UIElement.SnapsToDevicePixels" Value="True" />
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="Height" Value="0" />
+        <Setter Property="Width" Value="0" />
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="{x:Type Thumb}">
+              <Grid />
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+      <ControlTemplate x:Key="Slider_PeakMeter_Template" TargetType="{x:Type Slider}">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" MinWidth="{TemplateBinding FrameworkElement.MinWidth}" />
+            <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+          <Image Name="TrackBackground" Grid.Column="1" Stretch="Fill" Source="{StaticResource Img_VolumePeak_Full}" />
+          <Track Name="PART_Track" Grid.Column="1">
+            <Track.IncreaseRepeatButton>
+              <RepeatButton Style="{StaticResource RepeatButton_Slider_PeakMeter_Top_Style}" />
+            </Track.IncreaseRepeatButton>
+            <Track.DecreaseRepeatButton>
+              <RepeatButton Style="{StaticResource RepeatButton_Slider_PeakMeter_Bottom_Style}" />
+            </Track.DecreaseRepeatButton>
+            <Track.Thumb>
+              <Thumb Style="{StaticResource Thumb_PeakMeter_Style}" />
+            </Track.Thumb>
+          </Track>
+        </Grid>
+      </ControlTemplate>
+      <Style x:Key="Slider_PeakMeter_Style" TargetType="{x:Type Slider}" BasedOn="{StaticResource Slider_PeakMeter}">
+        <Setter Property="UIElement.SnapsToDevicePixels" Value="True" />
+        <Setter Property="FrameworkElement.OverridesDefaultStyle" Value="True" />
+        <Setter Property="Slider.IsSnapToTickEnabled" Value="True" />
+        <Setter Property="Slider.Orientation" Value="Vertical" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="RangeBase.Minimum" Value="0" />
+        <Setter Property="RangeBase.Maximum" Value="100" />
+        <Setter Property="RangeBase.Value" Value="0" />
+        <Setter Property="FrameworkElement.ToolTip" Value="{DynamicResource MagicVoiceII_ToolTip_PeakMeter}" />
+        <Setter Property="Template" Value="{StaticResource Slider_PeakMeter_Template}" />
+      </Style>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <Grid>
+    <local:EffectControlBackground />
+    <Grid Margin="15,15,15,15">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="40" />
+        <RowDefinition Height="224" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="530" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Grid Row="0" ColumnSpan="2">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="2*" />
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="0" Content="{DynamicResource Label_Title_MagicVoiceII}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Style="{StaticResource Label_Main_Style}" />
+        <CheckBox Name="tbMagicVoice2Enable" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource CheckBox_EffectControlSwitch_Style}" Click="MagicVoice2Enable_Click" />
+      </Grid>
+      <Grid Row="1">
+        <Grid.RowDefinitions>
+          <RowDefinition />
+          <RowDefinition Height="4" />
+          <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1" />
+          <ColumnDefinition Width="10" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="10" />
+          <ColumnDefinition Width="1" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="2" Width="758" Orientation="Horizontal">
+          <RadioButton Name="rbMonster" Style="{StaticResource RadioButton_ModeMonster_Style}" Click="Monster_Click" />
+          <RadioButton Name="rbCartoon" Style="{StaticResource RadioButton_ModeCartoon_Style}" Click="Cartoon_Click" />
+          <RadioButton Name="rbMan" Style="{StaticResource RadioButton_ModeMan_Style}" Click="Man_Click" />
+          <RadioButton Name="rbWoman" Style="{StaticResource RadioButton_ModeWoman_Style}" Click="Woman_Click" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="2" Width="758" Orientation="Horizontal">
+          <RadioButton Name="rbManAi" Style="{StaticResource RadioButton_ModeManAi_Style}" Click="ManAi_Click" />
+          <RadioButton Name="rbWomanAi" Style="{StaticResource RadioButton_ModeWomanAi_Style}" Click="WomanAi_Click" />
+          <RadioButton Name="rbBoyAi" Style="{StaticResource RadioButton_ModeBoyAi_Style}" Click="BoyAi_Click" />
+          <RadioButton Name="rbGirlAi" Style="{StaticResource RadioButton_ModeGirlAi_Style}" Click="GirlAi_Click" />
+        </StackPanel>
+      </Grid>
+      <Grid Name="grdPeakMeter" Row="1" Column="1">
+        <Border Background="{StaticResource SolidColorBrush_RectButtonBackground}" CornerRadius="10" Margin="30,0,50,0">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="4" />
+              <RowDefinition Height="20" />
+              <RowDefinition Height="*" />
+              <RowDefinition Height="4" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="20" />
+              <ColumnDefinition Width="20" />
+              <ColumnDefinition Width="20" />
+              <ColumnDefinition Width="8" />
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="14" />
+            </Grid.ColumnDefinitions>
+            <Label Content="{DynamicResource MagicVoiceII_Label_VoiceMonitor}" Grid.Row="1" Grid.ColumnSpan="6" Margin="0,-4,0,-2" HorizontalAlignment="Center" Style="{StaticResource Label_Main_Style}" />
+            <Slider Name="Slider_PeakMeter_L" Grid.Row="2" Grid.Column="1" Style="{StaticResource Slider_PeakMeter_Style}" />
+            <Slider Name="Slider_PeakMeter_R" Grid.Row="2" Grid.Column="2" Style="{StaticResource Slider_PeakMeter_Style}" />
+            <Image Grid.Row="2" Grid.Column="4" Width="30" Height="140" VerticalAlignment="Top" Margin="0,5,0,0" Source="{StaticResource Img_Volume_Tick}" />
+            <Slider Name="slMasterVolume" Grid.Row="2" Grid.Column="4" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" Height="140" Value="80" Maximum="100" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" TickFrequency="1" Orientation="Vertical" Style="{StaticResource Slider_Vertical_Style}" ToolTip="{DynamicResource ToolTip_Slider_MasterVolume}" ValueChanged="Slider_MasterVolume_ValueChanged" />
+            <CheckBox Name="chkListen" Grid.Row="2" Grid.Column="4" VerticalAlignment="Bottom" Margin="0,0,0,2" Style="{StaticResource CheckBox_Listen_Style}" Click="Btn_Listen_Click" />
+          </Grid>
+        </Border>
+      </Grid>
+      <Grid Name="grdAiMagicVoice" Row="2">
+        <Border Background="{StaticResource SolidColorBrush_RectButtonBackground}" CornerRadius="10" Margin="20,20,40,10">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="20" />
+              <RowDefinition Height="30" />
+              <RowDefinition Height="26" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="350" />
+              <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="{DynamicResource MagicVoiceII_Label_Low}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,-2,0,-4" Style="{StaticResource Label_Main_Style}" />
+            <Label Content="{DynamicResource MagicVoiceII_Label_High}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,-2,10,-4" Style="{StaticResource Label_Main_Style}" />
+            <Slider Name="slPitch" Grid.Row="1" Grid.Column="0" Margin="0,-4,0,0" HorizontalAlignment="Center" Orientation="Horizontal" Minimum="-16" Maximum="16" TickFrequency="0.1" Value="0" Style="{StaticResource Slider_Balance_Style}" ValueChanged="Pitch_ValueChanged" />
+            <Label Content="{DynamicResource MagicVoiceII_Label_PitchAdjustment}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-10,0,0" Style="{StaticResource Label_Main_Style}" />
+            <Border Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Margin="0,-10,60,0" CornerRadius="5" Background="{StaticResource SolidColorBrush_Background}" Width="35" Height="25">
+              <TextBlock Name="tbPitchShiftValue" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="14" Text="{Binding ElementName=slPitch, Path=Value, UpdateSourceTrigger=PropertyChanged, StringFormat=0.#}">
+                <FrameworkElement.Style>
+                  <Style TargetType="{x:Type TextBlock}">
+                    <Style.Triggers>
+                      <Trigger Property="IsEnabled" Value="False">
+                        <Setter Property="Foreground" Value="{x:Static SystemColors.GrayTextBrush}" />
+                      </Trigger>
+                      <Trigger Property="IsEnabled" Value="True">
+                        <Setter Property="Foreground" Value="{StaticResource SolidColorBrush_Label_Main}" />
+                      </Trigger>
+                    </Style.Triggers>
+                  </Style>
+                </FrameworkElement.Style>
+              </TextBlock>
+            </Border>
+            <Button Name="btnPitchEstimation" Grid.RowSpan="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource Button_AutoPitchEstimation_Style}" Click="PitchEstimation_Click" />
+          </Grid>
+        </Border>
+      </Grid>
+      <Grid Name="grdProfile" Row="3" Column="1">
+        <Border Background="{StaticResource SolidColorBrush_RectButtonBackground}" CornerRadius="10" Margin="30,20,50,10">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="40" />
+              <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <ComboBox Name="comboProfile" Style="{StaticResource ComboBox_Style}" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="Profile_DropDownClosed">
+              <ComboBoxItem Content="Profile 1" />
+              <ComboBoxItem Content="Profile 2" />
+              <ComboBoxItem Content="Profile 3" />
+            </ComboBox>
+            <Grid Row="1">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition Width="20" />
+              </Grid.ColumnDefinitions>
+              <Button Name="btnResetProfile" Grid.Column="1" Width="30" Height="30" HorizontalAlignment="Center" Style="{StaticResource Button_ProfileReset_Style}" Click="ResetProfile_Click" />
+              <Button Name="btnSaveProfile" Grid.Column="2" Width="30" Height="30" HorizontalAlignment="Center" Style="{StaticResource Button_ProfileSave_Style}" IsEnabled="False" Click="SaveProfile_Click" />
+            </Grid>
+          </Grid>
+        </Border>
+      </Grid>
+      <MagicVoice2:WarningDialog x:Name="ucWarningDialog" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden" />
+      <MagicVoice2:PowerSettingsWindow x:Name="ucPowerSettings" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden" />
+      <Grid Name="LoadingOverlay" Row="1" RowSpan="2" Column="0" ColumnSpan="2" Background="#80000000" Visibility="Collapsed">
+        <TextBlock Text="{DynamicResource MagicVoiceII_Text_Processing}" Foreground="#FFFFFFFF" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" />
+      </Grid>
+    </Grid>
+  </Grid>
+</UserControl>

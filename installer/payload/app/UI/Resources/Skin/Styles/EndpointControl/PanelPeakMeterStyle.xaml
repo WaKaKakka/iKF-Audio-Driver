@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--MaxWidth: 25 MaxHeight: 310-->
+    <!--Img VolumePeak Bg-->
+    <BitmapImage x:Key="Img_VolumePeak_Bg" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/VolumePanel/Img_VolumePeak_Bg.png"/>
+    <!--Img VolumePeak Bg-->
+    <!--Img VolumePeak Full-->
+    <BitmapImage x:Key="Img_VolumePeak_Full" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/VolumePanel/Img_VolumePeak_Full.png"/>
+    <!--Img VolumePeak Full-->
+    <!--Slider PeakMeter-->
+    <Style x:Key="Slider_PeakMeter" TargetType="{x:Type Slider}">
+        <Setter Property="Width" Value="15"/>
+        <Setter Property="Height" Value="260"/>
+    </Style>
+    <!--Slider PeakMeter-->
+
+</ResourceDictionary>

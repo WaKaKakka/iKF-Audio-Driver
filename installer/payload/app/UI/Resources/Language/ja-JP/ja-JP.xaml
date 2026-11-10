@@ -1,0 +1,1087 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Tooltip_Button_Close">
+        閉じる
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Enable">
+        有効にする
+    </sys:String>
+    <sys:String x:Key="Tooltip_CheckBox_EffectControlSwitch_Disable">
+        無効にする
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Reset">
+        リセット
+    </sys:String>
+    <sys:String x:Key="Label_Left">
+        左
+    </sys:String>
+    <sys:String x:Key="Label_Right">
+        右
+    </sys:String>
+    <!--Common-->
+
+    <!--MainWindow-->
+    <sys:String x:Key="Tooltip_Button_App_Close">
+        アプリウィンドウを閉じる
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Minimize">
+        アプリウィンドウを最小化する
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_App_Info">
+        情報
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Add_Device">
+        デバイスを追加
+    </sys:String>
+    <sys:String x:Key="Tooltip_Img_BannerLogo">
+        Cmedia XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_DisableGuide">
+        このガイドを再度表示しない
+    </sys:String>
+    <!--MainWindow-->
+
+    <!--SystemTray-->
+    <sys:String x:Key="Label_TrayName">
+        XearONE Audio Center
+    </sys:String>
+    <sys:String x:Key="Label_TrayOpen">
+        開く
+    </sys:String>
+    <sys:String x:Key="Label_TrayClose">
+        終了
+    </sys:String>
+    <!--SystemTray-->
+
+    <!--JackSetting-->
+    <sys:String x:Key="Label_WindowTitle_JackSetting">
+        デバイス設定と情報
+    </sys:String>
+    <sys:String x:Key="Label_Title_DefaultDevice">
+        既定のデバイス設定
+    </sys:String>
+    <sys:String x:Key="Label_DefaultDevice">
+        既定のデバイス
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultDevice">
+        既定のデバイスとして設定
+    </sys:String>
+    <sys:String x:Key="Label_DefaultCommunicationDevice">
+        既定の通信デバイス
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_DefaultCommunicationDevice">
+        既定の通信デバイスとして設定
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceFormat">
+        デバイスフォーマット
+    </sys:String>
+    <sys:String x:Key="Label_Format">
+        フォーマット
+    </sys:String>
+    <sys:String x:Key="Label_Title_DeviceInformation">
+        デバイス情報
+    </sys:String>
+    <sys:String x:Key="Label_DeviceName">
+        デバイス名:
+    </sys:String>
+    <sys:String x:Key="Label_FirmwareVersion">
+        ファームウェアバージョン:
+    </sys:String>
+    <sys:String x:Key="Label_DriverVersion">
+        ドライバーバージョン:
+    </sys:String>
+    <sys:String x:Key="Label_AudioCodecName">
+        オーディオコーデック名:
+    </sys:String>
+    <!--JackSetting-->
+
+    <!--EffectControl-->
+    <sys:String x:Key="Label_WindowTitle_EffectControl">
+        サウンド効果
+    </sys:String>
+    <!--EffectControl-->
+
+    <!--EndpointList-->
+    <sys:String x:Key="Label_WindowTitle_EndpointList">
+        オーディオデバイスリスト
+    </sys:String>
+    <sys:String x:Key="Label_Title_PlaybackDevice">
+        再生デバイス
+    </sys:String>
+    <sys:String x:Key="Label_Title_CaptureDevice">
+        キャプチャデバイス
+    </sys:String>
+    <!--EndpointList-->
+
+    <!--Information-->
+    <sys:String x:Key="Label_WindowTitle_Information">
+        情報
+    </sys:String>
+    <sys:String x:Key="Label_Button_Website">
+        www.cmedia.com.tw
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Website">
+        ウェブサイトリンク
+    </sys:String>
+    <sys:String x:Key="Label_Button_Apply">
+        適用
+    </sys:String>
+    <sys:String x:Key="Tooltip_Button_Apply">
+        言語変更を適用
+    </sys:String>
+    <sys:String x:Key="Tooltip_APPVersion">
+        アプリケーションバージョン
+    </sys:String>
+    <sys:String x:Key="Tooltip_SDKVersion">
+        SDK DLLバージョン
+    </sys:String>
+    <sys:String x:Key="Label_Button_FWUpdate">
+        ファームウェアアップデート
+    </sys:String>
+    <sys:String x:Key="Tooltip_FWUpdate">
+        ファームウェアを更新
+    </sys:String>
+    <!--Information-->
+
+    <!--FirmwareUpdateWindow-->
+    <sys:String x:Key="Label_Title_FirmwareUpdateWindow">
+        ファームウェアアップデート
+    </sys:String>
+    <sys:String x:Key="Label_DeviceFirmwareInfoTitle">
+        デバイスファームウェア情報
+    </sys:String>
+    <sys:String x:Key="Label_ModelName">
+        モデル名
+    </sys:String>
+    <sys:String x:Key="Label_FWVersion">
+        バージョン
+    </sys:String>
+    <sys:String x:Key="Label_SelectedFirmwareInfoTitle">
+        選択されたファームウェア情報
+    </sys:String>
+    <sys:String x:Key="Label_FWFileName">
+        ファイル名
+    </sys:String>
+    <sys:String x:Key="Label_FWType">
+        タイプ
+    </sys:String>
+    <sys:String x:Key="Button_Update">
+        アップデート
+    </sys:String>
+    <sys:String x:Key="Button_FWWindowClose">
+        閉じる
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningTitle">
+        警告
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent1">
+        1. 他のプログラムをすべて閉じてください
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent2">
+        2. アップデート中は本プログラムを閉じないでください
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent3">
+        3. アップデート中はデバイスの接続を外さないでください
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningContent4">
+        4. アップデート中はヘッドホンをオフにしないでください
+    </sys:String>
+    <sys:String x:Key="Label_UpdateWarningWaiting">
+        アップデート中、しばらくお待ちください
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Unknown">
+        不明
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Preparing">
+        準備中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Updating">
+        更新中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Restarting">
+        再起動中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finalizing">
+        最終処理中...
+    </sys:String>
+    <sys:String x:Key="Label_UpdatingState_Finished">
+        完了
+    </sys:String>
+    <!--FirmwareUpdateWindow-->
+
+    <!--Effect Abbreviation Name-->
+    <sys:String x:Key="Effect_ShortName_NoiseReduction">
+        NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HDNoiseReduction">
+        HD NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AINoiseReduction">
+        AI NR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_EnvironmentEffects">
+        EM
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Equalizer10Bands">
+        EQ
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SpeakerShifter">
+        VSS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_SurroundMax">
+        SMX
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_Compressor">
+        COMP.
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_NoiseGate">
+        NG
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearAudioBrilliant">
+        AB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearDynamicBass">
+        DB
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_Echo">
+        ECHO
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_MagicVoice">
+        MV
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_KeyShifting">
+        KS
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSingFX_VocalFading">
+        VF
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSmartVolume">
+        SVN
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearSurroundHeadphone">
+        7.1
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_XearVoiceClarity">
+        VC
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_HeadTracking">
+        3D Audio
+    </sys:String>
+    <sys:String x:Key="Effect_ShortName_AIMagicVoice">
+        AI MV
+    </sys:String>
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="Effect_ShortName_MagicVoiceII">
+        MV II
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="Effect_ShortName_REC_Effect">
+        REC Effect
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+    
+    <!--Effect Abbreviation Name-->
+    
+    <!--EffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CLC_NoiseReduction">
+        ノイズリダクション
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HDNoiseReduction">
+        HDノイズリダクション
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AINoiseReduction">
+        AIノイズリダクション
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_EnvironmentEffects">
+        環境エフェクト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands">
+        イコライザー
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Equalizer10Bands_Mic">
+        マイクイコライザー
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SpeakerShifter">
+        バーチャル7.1スピーカーシフター
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_SurroundMax">
+        Xearサラウンドマックス
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_Compressor">
+        コンプレッサー
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_NoiseGate">
+        ノイズゲート
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_LDR">
+        LDR
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearAudioBrilliant">
+        Xearオーディオブリリアント
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearDynamicBass">
+        Xearダイナミックベース
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_Echo">
+        Xear SingFXエコー
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_MagicVoice">
+        Xearマジックボイス
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_KeyShifting">
+        Xear SingFXキーシフティング
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSingFX_VocalFading">
+        Xear SingFXボーカルフェーディング
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSmartVolume">
+        Xearスマートボリューム
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearSurroundHeadphone">
+        Xearサラウンドヘッドホン
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_XearVoiceClarity">
+        Xearボイスクラリティ
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_HeadTracking">
+        Xear 3Dパノラマオーディオ
+    </sys:String>
+    <sys:String x:Key="ToolTip_CLC_AIMagicVoice">
+        AIマジックボイス
+    </sys:String>
+    <!--EffectSwitchControl-->
+
+    <!--MagicVoice2SwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_MV2_Switch">
+        マジックボイスII
+    </sys:String>
+    <!--MagicVoice2SwitchControl-->
+
+    <!--RECEffectSwitchControl-->
+    <sys:String x:Key="ToolTip_CheckBox_REC_Switch">
+        録音エフェクト
+    </sys:String>
+    <!--RECEffectSwitchControl-->
+
+    <!--Endpoint Control-->
+    <sys:String x:Key="ToolTip_Icon_CJT_Speaker">
+        Speaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Microphone">
+        Microphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Line">
+        Line
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIF">
+        SPDIF
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_AUX">
+        Aux
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CDPlayer">
+        CDPlayer
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headphone">
+        Headphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_StereoMix">
+        StereoMix
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_HDMI">
+        HDMI
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SPDIFInRCA">
+        SPDIFInRCA
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerQuarter">
+        SpeakerQuarter
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Headset">
+        Headset
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_DesktopSpeaker">
+        DesktopSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontMic">
+        FrontMic
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_FrontHeadphone">
+        FrontHeadphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_EchoSuppressingSpeakerphone">
+        EchoSuppressingSpeakerphone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_SpeakerPhone">
+        SpeakerPhone
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_MicrophoneArray">
+        MicrophoneArray
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_CommunicationSpeaker">
+        CommunicationSpeaker
+    </sys:String>
+    <sys:String x:Key="ToolTip_Icon_CJT_Unknown">
+        Unknown
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DeviceRemove">
+        パネルからこのデバイスを削除
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_JackSetting">
+        オーディオデバイス設定
+    </sys:String>
+    <sys:String x:Key="ToolTip_Session">
+        デバイスセッション
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_LV">
+        クリックしてレベルに切り替える
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_UnitChange_dB">
+        クリックしてdBに切り替える
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_MasterVolume">
+        マスターボリューム
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_PeakMeter">
+        ピークメーター
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_EffectSwitch">
+        メインエフェクトスイッチ
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_EffectSetting">
+        エフェクト設定
+    </sys:String>
+    <sys:String x:Key="ToolTip_Rect_EffectPanel_Disbale">
+        エフェクトなし
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Balance">
+        バランス
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Unmute">
+        ミュート解除
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Mute_Mute">
+        ミュート
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_LED">
+        LED
+    </sys:String>
+    <sys:String x:Key="ToolTip_Img_Battery_Disconnect">
+        デバイス切断
+    </sys:String>
+    <!--Endpoint Control-->
+
+    <!--EndpointListControl-->
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Add">
+        パネルに追加
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_IsAdded_Remove">
+        パネルから削除
+    </sys:String>
+    <!--EndpointListControl-->
+
+    <!--AINRControl-->
+    <sys:String x:Key="Label_Title_AINRPlayback">
+        AIノイズリダクション
+    </sys:String>
+    <sys:String x:Key="Label_Title_AINRCapture">
+        AIノイズリダクション
+    </sys:String>
+    <sys:String x:Key="Label_Level">
+        レベル
+    </sys:String>
+    <sys:String x:Key="Label_Low">
+        低
+    </sys:String>
+    <sys:String x:Key="Label_Medium">
+        中
+    </sys:String>
+    <sys:String x:Key="Label_High">
+        高
+    </sys:String>
+    <sys:String x:Key="ToolTip_Slider_Level">
+        ノイズリダクションレベル
+    </sys:String>
+    <!--AINRControl-->
+
+    <!--EQControl-->
+    <sys:String x:Key="Label_Title_EQ">
+        イコライザー
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_00">
+        既定
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_01">
+        ベース
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_02">
+        ジャズ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_03">
+        ダンス
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_04">
+        ライブ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_05">
+        ラップ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_06">
+        クラシック
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_07">
+        ソフトロック
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_08">
+        メタル
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_09">
+        トレブル
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_10">
+        ロック
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_11">
+        ボーカル
+    </sys:String>
+    <sys:String x:Key="ToolTip_ComboBox_Profile">
+        プリセットプロファイル
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Save">
+        プロファイルに保存
+    </sys:String>
+    <sys:String x:Key="ToolTip_TextBox_ProfileName">
+        プロファイル名を入力
+    </sys:String>
+    <sys:String x:Key="Tooltip_Slider_Gain">
+        ゲイン値
+    </sys:String>
+    <!--EQControl-->
+
+    <!--MicEQControl-->
+    <sys:String x:Key="Label_Title_MicEQ">
+        マイクイコライザー
+    </sys:String>
+    <sys:String x:Key="Label_Reset">
+        リセット
+    </sys:String>
+    <!--MicEQControl-->
+
+    <!--EnvironmentEffectsControl-->
+    <sys:String x:Key="Label_Title_EnvironmentEffects">
+        環境エフェクト
+    </sys:String>
+    <sys:String x:Key="Label_Environment">
+        環境
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_None">
+        なし
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Generic">
+        汎用
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_PaddedCell">
+        パデッドセル
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Room">
+        部屋
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Bathroom">
+        バスルーム
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_LivingRoom">
+        リビングルーム
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneRoom">
+        ストーンルーム
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Auditorium">
+        オーディトリアム
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ConcertHall">
+        コンサートホール
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Cave">
+        洞窟
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Arena">
+        アリーナ
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hangar">
+        格納庫
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_CarpetedHallway">
+        カーペット敷きの廊下
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Hallway">
+        廊下
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_StoneCorridor">
+        石の回廊
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Alley">
+        路地
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Forest">
+        森
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_City">
+        都市
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Mountains">
+        山
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Quarry">
+        採石場
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Plain">
+        平原
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_ParkingLot">
+        駐車場
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_SewerPipe">
+        下水管
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_UnderWater">
+        水中
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Drugged">
+        薬物入り
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Dizzy">
+        めまい
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Psychotic">
+        精神病
+    </sys:String>
+    <sys:String x:Key="Label_EMMode_Karaoke">
+        カラオケ
+    </sys:String>
+    <!--EnvironmentEffectsControl-->
+
+    <!--XearSingFxEchoControl-->
+    <sys:String x:Key="Label_Title_XearSingFxEcho">
+        Xear SingFXエコー
+    </sys:String>
+    <sys:String x:Key="Label_EchoLevel">
+        エコーレベル
+    </sys:String>
+    <!--XearSingFxEchoControl-->
+
+    <!--XearSingFxKeyShiftingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxKeyShifting">
+        Xear SingFXキーシフティング
+    </sys:String>
+    <sys:String x:Key="Label_PitchUp">
+        ピッチアップ
+    </sys:String>
+    <sys:String x:Key="Label_PitchDown">
+        ピッチダウン
+    </sys:String>
+    <!--XearSingFxKeyShiftingControl-->
+
+    <!--XearSingFxVocalFadingControl-->
+    <sys:String x:Key="Label_Title_XearSingFxVocalFading">
+        Xear SingFXボーカルフェーディング
+    </sys:String>
+    <sys:String x:Key="Label_NoVoice">
+        ボーカルなし
+    </sys:String>
+    <sys:String x:Key="Label_Voice">
+        ボーカル
+    </sys:String>
+    <!--XearSingFxVocalFadingControl-->
+
+    <!--XearSurroundHeadphoneControl-->
+    <sys:String x:Key="Label_Title_XearSurroundHeadphone">
+        Xearサラウンドヘッドホン
+    </sys:String>
+    <sys:String x:Key="Label_EffectMode">
+        エフェクトモード
+    </sys:String>
+    <sys:String x:Key="ToolTip_EffectMode">
+        サラウンドモード
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMusicGaming">
+        音楽/ゲームモード
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ModeMovie">
+        映画モード
+    </sys:String>
+    <sys:String x:Key="Label_RoomSize">
+        部屋のサイズ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RoomSize">
+        サラウンド部屋のサイズ
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeSmall">
+        小部屋
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeMedium">
+        中部屋
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_RoomSizeLarge">
+        大部屋
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_L">
+        フロント左テスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_R">
+        フロント右テスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_C">
+        センターテスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_W">
+        サブウーファーテスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LS">
+        サイド左テスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RS">
+        サイド右テスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_LB">
+        リア左テスト
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_RB">
+        リア右テスト
+    </sys:String>
+    <!--XearSurroundHeadphoneControl-->
+
+    <!--XearAudioBrilliantControl-->
+    <sys:String x:Key="Label_Title_XearAudioBrilliant">
+        Xearオーディオブリリアント
+    </sys:String>
+    <sys:String x:Key="Label_BrilliantLevel">
+        ブリリアントレベル
+    </sys:String>
+    <!--XearAudioBrilliantControl-->
+
+    <!--XearDynamicBassControl-->
+    <sys:String x:Key="Label_Title_XearDynamicBass">
+        Xearダイナミックベース
+    </sys:String>
+    <sys:String x:Key="Label_BassLevel">
+        ベースレベル
+    </sys:String>
+    <sys:String x:Key="Label_Cut-OffFrequency">
+        カットオフ周波数
+    </sys:String>
+    <!--XearDynamicBassControl-->
+
+    <!--XearSmartVolumeControl-->
+    <sys:String x:Key="Label_Title_XearSmartVolume">
+        Xearスマートボリューム
+    </sys:String>
+    <sys:String x:Key="Label_Music">
+        音楽モード
+    </sys:String>
+    <sys:String x:Key="Label_Music_Info">
+        高ダイナミック
+    </sys:String>
+    <sys:String x:Key="Label_Speech">
+        スピーチモード
+    </sys:String>
+    <sys:String x:Key="Label_Speech_Info">
+        低ダイナミック
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Music">
+        音楽モード
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Speech">
+        スピーチモード
+    </sys:String>
+    <!--XearSmartVolumeControl-->
+
+    <!--XearVoiceClarityControl-->
+    <sys:String x:Key="Label_Title_XearVoiceClarity">
+        Xearボイスクラリティ
+    </sys:String>
+    <sys:String x:Key="Label_VoiceClarityLevel">
+        ボイスクラリティレベル
+    </sys:String>
+    <sys:String x:Key="Label_NSLevel">
+        通信用ノイズサプレッション
+    </sys:String>
+    <!--XearVoiceClarityControl-->
+
+    <!--XearMagicVoiceControl-->
+    <sys:String x:Key="Label_Title_XearMagicVoice">
+        Xearマジックボイス
+    </sys:String>
+    <sys:String x:Key="Label_Mode">
+        モード
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Monster">
+        モンスター
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Cartoon">
+        漫画
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Man">
+        男性
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Woman">
+        女性
+    </sys:String>
+    <!--XearMagicVoiceControl-->
+
+    <!--VirtualSpeakerShifter-->
+    <sys:String x:Key="Label_Title_VirtualSpeakerShifter">
+        バーチャル7.1スピーカーシフター
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Clockwise">
+        時計回り
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_CounterClockwise">
+        反時計回り
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManualClockwise">
+        手動回転
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_Manual">
+        手動シフト
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_L">
+        フロント左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_R">
+        フロント右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LS">
+        サイド左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RS">
+        サイド右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_LB">
+        リア左
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_RB">
+        リア右
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_C">
+        センター
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Speaker_W">
+        ウーファー
+    </sys:String>
+    <sys:String x:Key="ToolTip_Image_Head">
+        ヘッド
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_DecreaseGain">
+        ゲイン減少
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_IncreaseGain">
+        ゲイン増加
+    </sys:String>
+    <!--VirtualSpeakerShifter-->
+
+    <!--XearSurroundMaxControl-->
+    <sys:String x:Key="Label_Title_XearSurroundMax">
+        Xearサラウンドマックス
+    </sys:String>
+    <!--XearSurroundMaxControl-->
+
+    <!--NoiseReductionControl-->
+    <sys:String x:Key="Label_Title_NoiseReduction">
+        ノイズリダクション
+    </sys:String>
+    <sys:String x:Key="Label_NRLevel">
+        レベル
+    </sys:String>
+    <!--NoiseReductionControl-->
+
+    <!--HeadTrackingControl-->
+    <sys:String x:Key="Label_Title_HeadTracking">
+        Xear 3Dパノラマオーディオ
+    </sys:String>
+    <sys:String x:Key="Label_HeadTracking">
+        ヘッドトラッキング
+    </sys:String>
+    <sys:String x:Key="Label_Reverb">
+        3Dリバーブ
+    </sys:String>
+    <sys:String x:Key="Label_ReCenter">
+        リセンター
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_HeadTracking">
+        ヘッドトラッキングを有効にする
+    </sys:String>
+    <sys:String x:Key="ToolTip_CheckBox_Reverb">
+        リバーブを有効にする
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Recenter">
+        ヘッド位置を再センタリング
+    </sys:String>
+    <sys:String x:Key="ToolTip_Button_Guide">
+        ヘッドトラッキングガイド
+    </sys:String>
+    <sys:String x:Key="Label_Title_WarningWindow">
+        警告
+    </sys:String>
+    <sys:String x:Key="Label_WarningMessage">
+        ヘッドホンが切断されました
+    </sys:String>
+    <!--HeadTrackingControl-->
+
+    <!--RecordingEffectControl-->
+    <sys:String x:Key="Label_Title_RecordingEffect">
+        録音エフェクト
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_AINR">
+        AIノイズリダクション
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Compressor">
+        コンプレッサー
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_LDR">
+        遠距離録音
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_VoiceOnly">
+        音声のみ保持
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Balance">
+        音声ボリューム均一化
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_Label_Maximum">
+        最大ピックアップ距離
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorMax">
+        最大
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorDefault">
+        既定
+    </sys:String>
+    <sys:String x:Key="RecordingEffect_RadioButton_CompressorLow">
+        低
+    </sys:String>
+    <!--RecordingEffectControl-->
+
+    <!--MagicVoiceIIControl-->
+    <sys:String x:Key="Label_Title_MagicVoiceII">
+        マジックボイスII
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_ManAi">
+        男性 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_WomanAi">
+        女性 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_BoyAi">
+        少年 (AI)
+    </sys:String>
+    <sys:String x:Key="ToolTip_RadioButton_GirlAi">
+        少女 (AI)
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_Low">
+        低
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_High">
+        高
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_PitchAdjustment">
+        ピッチ調整
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Label_VoiceMonitor">
+        ボイスモニター
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_AutoPitchEstimation">
+        自動ピッチ推定
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ResetProfile">
+        プロファイルをリセット
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_SaveProfile">
+        プロファイルを保存
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_PeakMeter">
+        ピークメーター
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_ToolTip_ListenToYourVoice">
+        自分の声を聞く
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Title">
+        パーソナライズされた音声設定
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Instruction">
+        以下のテキストを声に出して読んでください。あなたの声の特徴に基づいて、音声変調効果を最適化します。
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Script">
+        山頂に立ち、広大な風景が眼下に広がるのを想像してください。あなたの声のエコーは、山のそよ風と調和して、開かれた空間を旅します。
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Start">
+        開始
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_PersonalizedVoiceSetup_Exit">
+        終了
+    </sys:String>
+    <sys:String x:Key="MagicVoiceII_Text_Processing">
+        処理中...
+    </sys:String>
+    <!--MagicVoiceIIControl-->
+
+    <!--HeadTracking Guide-->
+    <sys:String x:Key="Label_Title_Guide">
+        ガイド
+    </sys:String>
+    <sys:String x:Key="Label_ButtonNext">
+        次へ
+    </sys:String>
+    <sys:String x:Key="Label_ButtonPrev">
+        前へ
+    </sys:String>
+    <sys:String x:Key="Label_ButtonFinish">
+        完了
+    </sys:String>
+    <sys:String x:Key="Label_Playing">
+        再生中...
+    </sys:String>
+    <sys:String x:Key="Text_Step_1">
+        ヘッドホンが正しく装着されていることを確認し、「ヘッドトラッキング」機能をオンにしてください。
+    </sys:String>
+    <sys:String x:Key="Text_Step_2">
+        画面を正面から見て、頭をできるだけ動かさないようにし、設定ページ内の「リセット」ボタンをクリックして、ヘッドホンのサウンドフィールドを正しい位置に戻してください。
+    </sys:String>
+    <sys:String x:Key="Text_Step_3">
+        次に頭を回してみて、左のヘッドホンを示すモデルがあなたの頭の動きに合わせて回転するかどうかを確認してください。
+    </sys:String>
+    <sys:String x:Key="Text_Step_4">
+        まず、現在再生中のすべての音源を閉じ、次にテスト音源を再生します。準備ができたら、「次へ」を押してください。
+    </sys:String>
+    <sys:String x:Key="Text_Step_5">
+        これで再生中の音源が聞こえるはずです。目を閉じて頭を左右に回し、音の方向がどのように変化するかを感じてみることをお勧めします。
+    </sys:String>
+    <sys:String x:Key="Text_Step_6">
+        すべて問題がなければ、おめでとうございます。3Dパノラマ空間オーディオエフェクトの設定が完了しました。体験をお楽しみください。
+    </sys:String>
+    <!--HeadTracking Guide-->
+
+    <!--LED Control-->
+    <sys:String x:Key="Label_WindowTitle_LEDControl">
+        LED
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_0">
+        点灯
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_1">
+        色の変化
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_2">
+        呼吸
+    </sys:String>
+    <sys:String x:Key="Combobox_Mode_3">
+        心拍
+    </sys:String>
+    <!--LED Control-->
+</ResourceDictionary>

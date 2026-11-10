@@ -1,0 +1,59 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--ProfileAutoSwitch-->
+
+    <!--Img AddApp-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_AddApp_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AddDevice_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_AddApp_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/MainWindow/Button_AddDevice_mo.png"/>
+    <!--Img AddApp-->
+    <!--Button AddApp-->
+    <Style x:Key="Button_AddApp" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Margin" Value="0,0,20,0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+
+    <!--ProfileAutoSwitch-->
+
+    <!--AutoSwitchItem-->
+
+    <!--MaxWidth: 30 MaxHeight: 30-->
+    <!--Img AutoSwitchSetting-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_AutoSwitchSetting_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/AutoSwitch/Button_AutoSwitchSetting_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_AutoSwitchSetting_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/AutoSwitch/Button_AutoSwitchSetting_mo.png"/>
+    <!--Img AutoSwitchSetting-->
+    <!--Button AutoSwitchSetting-->
+    <Style x:Key="Button_AutoSwitchSetting" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="120"/>
+        <Setter Property="Height" Value="120"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button AutoSwitchSetting-->
+
+    <!--AutoSwitchItem-->
+
+    <!--AutoSwitchSetting-->
+
+    <!--MaxWidth: 90 MaxHeight: 90-->
+    <!--Img Icon-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_Icon_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/AutoSwitch/Button_Icon_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_Icon_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/ControlWindow/AutoSwitch/Button_Icon_mo.png"/>
+    <!--Img Icon-->
+    <!--Button Icon-->
+    <Style x:Key="Button_Icon" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="120"/>
+        <Setter Property="Height" Value="120"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button Icon-->
+
+    <!--AutoSwitchSetting-->
+</ResourceDictionary>

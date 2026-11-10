@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="XearONE.UI.EffectControls.HeadTracking.GuideWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:XearONE.UI.EffectControls.HeadTracking" Title="GuideWindow" Width="500" Height="400" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Loaded="Window_Loaded" Unloaded="Window_Unloaded">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <BitmapImage x:Key="Img_Step01" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/HeadTracking/GuideWindow/Img_Step01.png" />
+      <BitmapImage x:Key="Img_Step02" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/HeadTracking/GuideWindow/Img_Step02.png" />
+      <BitmapImage x:Key="Img_Step03" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/HeadTracking/GuideWindow/Img_Step03.png" />
+      <BitmapImage x:Key="Img_Step04" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/HeadTracking/GuideWindow/Img_Step04.png" />
+      <BitmapImage x:Key="Img_Step05" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/SoundEffects/HeadTracking/GuideWindow/Img_Step05.png" />
+      <ControlTemplate x:Key="Button_StepFinish_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Rectangle Name="Rect" RadiusX="4" RadiusY="4" StrokeThickness="1">
+            <Shape.Fill>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+            </Shape.Fill>
+            <Shape.Stroke>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+            </Shape.Stroke>
+          </Rectangle>
+          <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource Label_ButtonFinish}" Style="{StaticResource Label_Sub_Style}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Rect" Property="Shape.StrokeThickness" Value="2" />
+            <Setter TargetName="Rect" Property="Shape.Stroke" Value="{StaticResource SolidColorBrush_Background_Stroke_mo}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Rect" Property="Shape.Fill" Value="{StaticResource SolidColorBrush_FillFull}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_StepFinish_Style" TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{StaticResource Button_StepFinish_Template}" />
+        <Setter Property="Width" Value="90" />
+        <Setter Property="Height" Value="30" />
+        <Setter Property="FrameworkElement.Cursor" Value="Hand" />
+      </Style>
+      <ControlTemplate x:Key="Button_StepNext_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Rectangle Name="Rect" RadiusX="4" RadiusY="4" StrokeThickness="1">
+            <Shape.Fill>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+            </Shape.Fill>
+            <Shape.Stroke>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+            </Shape.Stroke>
+          </Rectangle>
+          <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource Label_ButtonNext}" Style="{StaticResource Label_Sub_Style}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Rect" Property="Shape.StrokeThickness" Value="2" />
+            <Setter TargetName="Rect" Property="Shape.Stroke" Value="{StaticResource SolidColorBrush_Background_Stroke_mo}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Rect" Property="Shape.Fill" Value="{StaticResource SolidColorBrush_FillFull}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_StepNext_Style" TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{StaticResource Button_StepNext_Template}" />
+        <Setter Property="Width" Value="90" />
+        <Setter Property="Height" Value="30" />
+        <Setter Property="FrameworkElement.Cursor" Value="Hand" />
+      </Style>
+      <ControlTemplate x:Key="Button_StepPrev_Template" TargetType="{x:Type Button}">
+        <Grid>
+          <Rectangle Name="Rect" RadiusX="4" RadiusY="4" StrokeThickness="1">
+            <Shape.Fill>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+            </Shape.Fill>
+            <Shape.Stroke>
+              <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+            </Shape.Stroke>
+          </Rectangle>
+          <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{DynamicResource Label_ButtonPrev}" Style="{StaticResource Label_Sub_Style}" />
+          <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <ControlTemplate.Triggers>
+          <Trigger Property="UIElement.IsMouseOver" Value="True">
+            <Setter TargetName="Rect" Property="Shape.StrokeThickness" Value="2" />
+            <Setter TargetName="Rect" Property="Shape.Stroke" Value="{StaticResource SolidColorBrush_Background_Stroke_mo}" />
+          </Trigger>
+          <Trigger Property="ButtonBase.IsPressed" Value="True">
+            <Setter TargetName="Rect" Property="Shape.Fill" Value="{StaticResource SolidColorBrush_FillFull}" />
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+      <Style x:Key="Button_StepPrev_Style" TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{StaticResource Button_StepPrev_Template}" />
+        <Setter Property="Width" Value="90" />
+        <Setter Property="Height" Value="30" />
+        <Setter Property="FrameworkElement.Cursor" Value="Hand" />
+      </Style>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+    <Rectangle Grid.RowSpan="3">
+      <Shape.Fill>
+        <SolidColorBrush Color="{StaticResource Color_Background}" />
+      </Shape.Fill>
+      <Shape.Stroke>
+        <SolidColorBrush Color="{StaticResource Color_Background_Stroke}" />
+      </Shape.Stroke>
+    </Rectangle>
+    <Grid Row="0">
+      <Rectangle>
+        <Shape.Fill>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground}" />
+        </Shape.Fill>
+        <Shape.Stroke>
+          <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+        </Shape.Stroke>
+      </Rectangle>
+      <Label Content="{DynamicResource Label_Title_Guide}" HorizontalAlignment="Center" Margin="0,0,0,0" Style="{StaticResource Label_WindowTitle_Style}" />
+      <Button HorizontalAlignment="Right" Margin="0,0,5,0" Style="{StaticResource Button_Close_Style}" Click="Button_Close_Click" />
+    </Grid>
+    <Grid Row="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="1*" />
+        <RowDefinition Height="60" />
+      </Grid.RowDefinitions>
+      <Grid Row="0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="10" />
+          <RowDefinition Height="3*" />
+          <RowDefinition Height="7*" />
+          <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="370" />
+          <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Row="1" Grid.Column="0" RadiusX="5" RadiusY="5" Margin="18,23,17,23">
+          <Shape.Fill>
+            <SolidColorBrush Color="{StaticResource Color_FillFull}" />
+          </Shape.Fill>
+          <Shape.Stroke>
+            <SolidColorBrush Color="{StaticResource Color_RectButtonBackground_Stroke}" />
+          </Shape.Stroke>
+        </Rectangle>
+        <Label Name="label_Step" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Content="1" Style="{StaticResource Label_Main_Style}" Height="30" Width="19" />
+        <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource Label_Sub_Style}" FontSize="16">
+          <TextBlock Name="TextBlock_Content" TextWrapping="Wrap" Text="{DynamicResource Text_Step_1}" />
+        </Label>
+        <Image Name="Img_Guide" Grid.Row="2" Grid.Column="1" Source="{StaticResource Img_Step01}" />
+        <Label Name="Label_Playing" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" Content="{DynamicResource Label_Playing}" Style="{StaticResource Label_Sub_Style}" Visibility="Hidden" Height="29" Width="72" />
+      </Grid>
+      <Grid Row="1">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="60" />
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="60" />
+        </Grid.ColumnDefinitions>
+        <Button Name="Button_Prev" Grid.Column="1" Style="{StaticResource Button_StepPrev_Style}" IsEnabled="False" Click="Button_StepPrev_Click" />
+        <Button Name="Button_Next" Grid.Column="2" Style="{StaticResource Button_StepNext_Style}" Click="Button_StepNext_Click" />
+      </Grid>
+    </Grid>
+  </Grid>
+</Window>

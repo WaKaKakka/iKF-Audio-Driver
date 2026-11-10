@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--MaxWidth: 74 MaxHeight: 24-->
+    <!--Img EffectListSwitch-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_EffectListSwitch_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectListSwitch_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_EffectListSwitch_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectListSwitch_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_EffectListSwitch_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectListSwitch_se.png"/>
+    <!--Img EffectListSwitch-->
+    <!--CheckBox EffectListSwitch-->
+    <Style x:Key="CheckBox_EffectListSwitch" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="74"/>
+        <Setter Property="Height" Value="24"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Img EffectListSwitch-->
+
+</ResourceDictionary>

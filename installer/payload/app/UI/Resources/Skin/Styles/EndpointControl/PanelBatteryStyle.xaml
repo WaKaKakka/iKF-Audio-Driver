@@ -1,0 +1,60 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Img BatteryLevel 00-->
+    <BitmapImage x:Key="Img_BatteryLevel_00" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryLevel_00.png"/>
+    <!--Img BatteryLevel 00-->
+
+    <!--Img BatteryLevel 25-->
+    <BitmapImage x:Key="Img_BatteryLevel_25" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryLevel_25.png"/>
+    <!--Img BatteryLevel 25-->
+
+    <!--Img BatteryLevel 50-->
+    <BitmapImage x:Key="Img_BatteryLevel_50" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryLevel_50.png"/>
+    <!--Img BatteryLevel 50-->
+
+    <!--Img BatteryLevel 75-->
+    <BitmapImage x:Key="Img_BatteryLevel_75" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryLevel_75.png"/>
+    <!--Img BatteryLevel 75-->
+
+    <!--Img BatteryLevel 100-->
+    <BitmapImage x:Key="Img_BatteryLevel_100" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryLevel_100.png"/>
+    <!--Img BatteryLevel 100-->
+
+    <!--Img BatteryState Charging-->
+    <BitmapImage x:Key="Img_BatteryState_Charging" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryState_Charging.png"/>
+    <!--Img BatteryState Charging-->
+
+    <!--Img BatteryState NoInfo-->
+    <BitmapImage x:Key="Img_BatteryState_NoInfo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_BatteryState_NoInfo.png"/>
+    <!--Img BatteryState NoInfo-->
+
+    <!--Img Disconnect-->
+    <BitmapImage x:Key="Img_Disconnect" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/BatteryPanel/Img_Disconnect_0.png"/>
+    <!--Img Disconnect-->
+
+    <!--MaxWidth: 30 MaxHeight: 30-->
+    <!--Img Battery-->
+    <Style x:Key="Img_Battery" TargetType="{x:Type Image}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+    </Style>
+    <!--Img Battery-->
+
+    <!--MaxWidth: 30 MaxHeight: 30-->
+    <!--Img Battery State-->
+    <Style x:Key="Img_Battery_State" TargetType="{x:Type Image}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+    </Style>
+    <!--Img Battery State-->
+
+    <!--MaxWidth: 30 MaxHeight: 30-->
+    <!--Img Battery Disconnect-->
+    <Style x:Key="Img_Battery_Disconnect" TargetType="{x:Type Image}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+    </Style>
+    <!--Img Battery Disconnect-->
+
+</ResourceDictionary>

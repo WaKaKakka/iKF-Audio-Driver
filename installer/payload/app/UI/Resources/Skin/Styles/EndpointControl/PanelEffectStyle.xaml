@@ -1,0 +1,47 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Width: 106 Height: 285-->
+    <!--Img Effect Bg-->
+    <BitmapImage x:Key="Img_Effect_Bg" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/Img_Effect_Bg.png"/>
+    <!--Img Effect Bg-->
+
+    <!--MaxWidth: 40 MaxHeight: 40-->
+    <!--Img EffectSwitch-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_EffectSwitch_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectSwitch_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_EffectSwitch_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectSwitch_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_EffectSwitch_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectSwitch_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_EffectSwitch_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/CheckBox_EffectSwitch_di.png"/>
+    <!--Img EffectSwitch-->
+    <!--CheckBox EffectSwitch-->
+    <Style x:Key="CheckBox_EffectSwitch" TargetType="{x:Type CheckBox}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--CheckBox EffectSwitch-->
+
+    <!--MaxWidth: 40 MaxHeight: 40-->
+    <!--Img EffectSetting-->
+    <!--Normal-->
+    <BitmapImage x:Key="Img_EffectSetting_no" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/Button_EffectSetting_no.png"/>
+    <!--MouseOver-->
+    <BitmapImage x:Key="Img_EffectSetting_mo" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/Button_EffectSetting_mo.png"/>
+    <!--Selected-->
+    <BitmapImage x:Key="Img_EffectSetting_se" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/Button_EffectSetting_se.png"/>
+    <!--Disable-->
+    <BitmapImage x:Key="Img_EffectSetting_di" UriSource="pack://siteoforigin:,,,/Resources/Skin/Images/EndpointControl/EffectPanel/Button_EffectSetting_di.png"/>
+    <!--Img EffectSetting-->
+    <!--Button EffectSetting-->
+    <Style x:Key="Button_EffectSetting" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+    <!--Button EffectSetting-->
+
+</ResourceDictionary>
